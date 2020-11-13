@@ -3,19 +3,6 @@
     src: url("../fonts/bloodcrow.ttf");
 }
 
-/* .dsfont {
-    font-family: dslayer;
-    font-size: 30px;
-    text-align: center;
-    padding-right: 5vw;
-    padding-top: 0px;
-    padding-bottom: 0px;
-} */
-
-.bg-dark1 {
-    background-color: #8b0000;
-}
-
 .navilogo {
     padding-right: 5vw;
 }
@@ -27,7 +14,11 @@
 }
 
 .navbar {
-    opacity: 0.97;
+    /* background-color: #8b0000; */
+    opacity: 0.9;
+    position:fixed;
+    width: 100vw;
+    z-index:10;
 }
 
 #bgVideo {
@@ -37,4 +28,36 @@
     min-width: 100%;
     min-height: 100%;
     filter: brightness(20%);
+}
+
+.home-image {
+    /* margin: 3%; */
+    position: relative;
+}
+
+.ds-image {
+    width: 100vw;
+}
+
+.download-game {
+    position: absolute;
+    bottom: 12%;
+    left:28%;
+    font-family: dslayer;
+    font-size: 6vw;
+    color: white;
+}
+
+.ggl-btn {
+    position: absolute;
+    width:19vw;
+    bottom: 1%;
+    left: 28%;
+}
+
+.apl-btn {
+    position: absolute;
+    width:19vw;
+    bottom: 1%;
+    right: 28%;
 }
