@@ -1,0 +1,22 @@
+@font-face {
+    font-family: dslayer;
+    src: url("../fonts/bloodcrow.ttf");
+}
+
+/* .dsfont {
+    font-family: dslayer;
+    font-size: 30px;
+    text-align: center;
+    padding-right: 5vw;
+    padding-top: 0px;
+    padding-bottom: 0px;
+} */
+
+.navilogo {
+    padding-right: 5vw;
+}
+
+.navbar {
+    opacity: 0.97;
+    background-color: black;
+}
