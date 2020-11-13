@@ -12,11 +12,29 @@
     padding-bottom: 0px;
 } */
 
+.bg-dark1 {
+    background-color: #8b0000;
+}
+
 .navilogo {
     padding-right: 5vw;
 }
 
+.nav-item {
+    font-family: dslayer;
+    font-size: 20px;
+    padding-right: 1vw;
+}
+
 .navbar {
     opacity: 0.97;
-    background-color: black;
+}
+
+#bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(20%);
 }
