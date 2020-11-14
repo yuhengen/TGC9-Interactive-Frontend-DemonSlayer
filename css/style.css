@@ -68,15 +68,17 @@ body {
     position:fixed;
     width: 100vw;
     z-index:10;
+    margin-top:0px;
 }
 
-#bgVideo {
+.bgVideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
     filter: brightness(20%);
+    z-index: -100;
 }
 
 .home-image {
