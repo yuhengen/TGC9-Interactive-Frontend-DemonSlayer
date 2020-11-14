@@ -6,5 +6,13 @@ let overlay = document.querySelector("#overlay");
 // });
 
 setTimeout(function() {
+    let body = document.querySelector("body");
     overlay.style.opacity = "0"
-},2000)
+    body.style.overflow = "scroll";
+},1500)
+
+setTimeout(function() {
+    // let body = document.querySelector("body");
+    // body.removeChild(overlay)
+    overlay.remove()
+},2500)

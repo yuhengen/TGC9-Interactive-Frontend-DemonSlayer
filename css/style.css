@@ -3,6 +3,10 @@
     src: url("../fonts/bloodcrow.ttf");
 }
 
+body {
+    overflow:hidden;
+}
+
 .pre-loader {
     width: 80px;
     height: 80px;
@@ -54,8 +58,8 @@
 
 .nav-item {
     font-family: dslayer;
-    font-size: 20px;
-    padding-right: 1vw;
+    font-size: 22px;
+    padding-right: 2vw;
 }
 
 .navbar {
@@ -105,4 +109,11 @@
     width:19vw;
     bottom: 1%;
     right: 28%;
+}
+
+.banner-logo {
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    width: 20vw;
 }
