@@ -1,11 +1,42 @@
+/* Navbar/Footer CSS */
 @font-face {
     font-family: dslayer;
     src: url("../fonts/bloodcrow.ttf");
 }
 
+.navilogo {
+    padding-right: 5vw;
+}
+
+.nav-item {
+    font-family: dslayer;
+    font-size: 22px;
+    padding-right: 3vw;
+}
+
+.navbar {
+    /* background-color: #8b0000; */
+    opacity: 0.9;
+    position:fixed;
+    width: 100vw;
+    z-index:10;
+    margin-top:0px;
+}
+
+.bgVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: brightness(20%);
+    z-index: -100;
+}
+
+/* Index page CSS */
 body {
-			overflow: hidden;
-		}
+    overflow: hidden;
+}
 
 .pre-loader {
     width: 80px;
@@ -50,35 +81,6 @@ body {
     color: white;
     padding-top: 13%;
     font-size: 5vw;
-}
-
-.navilogo {
-    padding-right: 5vw;
-}
-
-.nav-item {
-    font-family: dslayer;
-    font-size: 22px;
-    padding-right: 3vw;
-}
-
-.navbar {
-    /* background-color: #8b0000; */
-    opacity: 0.9;
-    position:fixed;
-    width: 100vw;
-    z-index:10;
-    margin-top:0px;
-}
-
-.bgVideo {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
-    filter: brightness(20%);
-    z-index: -100;
 }
 
 .home-image {

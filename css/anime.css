@@ -1,3 +1,4 @@
+/* Navbar/Footer CSS */
 @font-face {
     font-family: dslayer;
     src: url("../fonts/bloodcrow.ttf");
@@ -32,6 +33,7 @@
     z-index: -100;
 }
 
+/* Page css */
 #anime-banner {
     padding-top: 10vh;
     background: rgba(0,0,0,0.7);
