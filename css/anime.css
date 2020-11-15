@@ -10,7 +10,7 @@
 .nav-item {
     font-family: dslayer;
     font-size: 22px;
-    padding-right: 2vw;
+    padding-right: 3vw;
 }
 
 .navbar {
@@ -59,4 +59,18 @@
 
 #accordion .card-body {
     color: white;
+}
+
+.episode-image {
+    width: 25vw;
+}
+
+#animebg {
+    position:fixed;
+    width:100%;
+    z-index:-99;
+}
+
+#animebg-left {
+    bottom:0px;
 }
