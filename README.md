@@ -37,4 +37,19 @@ Welcome to Demon Slayer - Dark War, a game where you will play as Tanjiro to gat
 - FAQ page with search function
 
 ## Structure
-The Demon Slayer Dark War SiteMap can be found [here](google.com)
+The Demon Slayer - Dark War SiteMap can be found [here](google.com)
+
+## Skeleton
+Most important features and information are displayed first. Our priority is to have players DOWNLOAD the game, so it is the first thing to see on the site. The font size is also generally the largest so as to catch attention.
+
+The Demon Slayer - Dark War wireframes can be found [here](google.com)
+
+## Surface
+### Colors
+Main colors used are those closely related to the Demon Slayer logo
+- Black/Grey to symbolize darkness and calamity.
+- White to contrast the Black, the light in the darkness, as well as a symbol of faith.
+- Red to symbolize chaos and blood
+
+### Fonts
+Fonts used are mainly the default and the Demon Slayer title font (Blood Crow) for headers.
