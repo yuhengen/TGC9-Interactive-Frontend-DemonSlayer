@@ -5,11 +5,11 @@ setTimeout(function() {
     let body = document.querySelector("body");
     overlay.style.opacity = "0"
     body.style.overflow = "scroll";
-},1000)
+},2000)
 
 setTimeout(function() {
     overlay.remove()
-},2000)
+},3000)
 
 async function getAnime() {
     let url = "https://imdb-api.com/en/API/Title/k_418swyln/tt9335498";

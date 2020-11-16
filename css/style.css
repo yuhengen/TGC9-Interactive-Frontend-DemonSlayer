@@ -36,8 +36,39 @@ html {
     z-index: -100;
 }
 
+/* footer */
 .site-footer {
     background-color: #343a40;
+}
+
+.fa-facebook-square {
+    color:white;
+    font-size:3rem;
+}
+
+.fa-instagram {
+    color:white;
+    font-size:3rem;
+}
+
+.fa-youtube-play {
+    color:white;
+    font-size:3rem;
+}
+
+.fa-desktop {
+    color:white;
+    font-size:3rem;
+}
+
+.fa-google {
+    color:white;
+    font-size:3rem;
+}
+
+.fa-apple {
+    color:white;
+    font-size:3rem;
 }
 
 .site-footer h2 {
@@ -48,13 +79,12 @@ html {
 }
 
 .socials-bar {
-    padding-top: 12px;
+    padding-top: 1%;
 }
 
-.social-btn {
-    width: 40px;
-    margin-right: 20px;
-    margin-left: 20px;
+.socials-bar a {
+    margin-right: 2%;
+    margin-left: 2%;
 }
 
 hr.solid {
@@ -76,6 +106,7 @@ hr.solid {
 
 .footer-text {
     color:white;
+    font-size: 1em;
 }
 
 a.footer-text:hover {
@@ -133,17 +164,16 @@ body {
 }
 
 .home-image {
-    /* margin: 3%; */
     position: relative;
 }
 
 .ds-image {
-    width: 100vw;
+    width: 100%;
 }
 
 .download-game {
     position: absolute;
-    bottom: 12%;
+    bottom: 15%;
     left:28%;
     font-family: dslayer;
     font-size: 6vw;
@@ -153,21 +183,21 @@ body {
 .pcd-btn {
     position: absolute;
     width:18vw;
-    bottom: 1%;
+    bottom: 3%;
     left: 20%;
 }
 
 .ggl-btn {
     position: absolute;
     width:18vw;
-    bottom: 1%;
+    bottom: 3%;
     left: 41%;
 }
 
 .apl-btn {
     position: absolute;
     width:18vw;
-    bottom: 1%;
+    bottom: 3%;
     right: 20%;
 }
 

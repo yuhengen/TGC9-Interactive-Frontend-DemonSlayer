@@ -9,6 +9,7 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<!-- Own CSS -->
     <link href="css/style.css" type="text/css" rel="stylesheet" />
 	<link href="css/characters.css" type="text/css" rel="stylesheet" />
@@ -66,9 +67,12 @@
 	</nav>
 	<!-- End of navbar -->
 
-	<div class="home-image">
-		<img src="images/DemonSlayer.png" class="ds-image" />
-		<h3 class="download-game">Download Game</h3>
+	<div id="char-viewer">
+		<img src="images/characters/chars-background.jpg" id="chars-background" />
+		<h3 id="character-name">Tanjiro</h3>
+        <div id="character-desc">
+            <p class="desc-text">Tanjiro Kamado is the main protagonist of Demon Slayer: Kimetsu no Yaiba. He is a Kanoe-ranked member of the Demon Slayer Corps, who joined for the sake of hunting down the one responsible for the murder of his family and his sister's transformation into a Demon.</p>
+        </div>
 		<img src="images/google-download.png" class="ggl-btn" />
 		<img src="images/apple-download.png" class="apl-btn" />
     </div>
@@ -77,15 +81,17 @@
 					<footer class="site-footer">
 						<div class="d-flex justify-content-center socials-bar">
 							<a href="https://www.facebook.com/"
-								target="_blank"><img src="images/socials/FB-icon.png" class="social-btn" /></a>
-								<a href="https://www.instagram.com/"
-									target="_blank"><img src="images/socials/IG-icon.png" class="social-btn" /></a>
+								target="_blank"><i class="fa fa-facebook-square social-btn" aria-hidden="true"></i></a>
+							    <a href="https://www.instagram.com/"
+									target="_blank"><i class="fa fa-instagram social-btn" aria-hidden="true"></i></a>
 									<a href="https://www.youtube.com/"
-										target="_blank"><img src="images/socials/YT-icon.png" class="social-btn" /></a>
+										target="_blank"><i class="fa fa-youtube-play social-btn" aria-hidden="true"></i></a>
+                                        <a href="https://www.youtube.com/"
+										target="_blank"><i class="fa fa-desktop social-btn" aria-hidden="true"></i></a>
 										<a href="https://play.google.com/store"
-											target="_blank"><img src="images/socials/GP-icon.png" class="social-btn" /></a>
+											target="_blank"><i class="fa fa-google social-btn" aria-hidden="true"></i></a>
 											<a href="https://www.apple.com/sg/app-store/"
-												target="_blank"><img src="images/socials/AP-icon.png" class="social-btn" /></a>
+												target="_blank"><i class="fa fa-apple social-btn" aria-hidden="true"></i></a>
 						</div>
 
 						<hr class="solid">
