@@ -63,3 +63,36 @@ body {
 #character-desc {
     overflow: auto;
 }
+
+.scroll-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 2vh;
+    background-color: rgba(0,0,0,0.8)
+}
+
+li.char-icon {
+    margin-left: 1vw;
+    margin-right:1vw;
+    cursor:pointer;
+    list-style: none;
+    text-align:center;
+    color:white;
+    font-family: dslayer;
+    font-size: 1.7rem;
+    background-color:black;
+    border-radius:5px;
+}
+
+li.char-icon:hover {
+    color:black;
+    background-color:white;
+}
+
+.icon-size {
+    height: 16vh;
+    margin-left:2px;
+    margin-right:2px;
+    padding-top:2px;
+}
