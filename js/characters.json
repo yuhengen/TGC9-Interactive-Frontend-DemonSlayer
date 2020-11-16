@@ -1,0 +1,20 @@
+{
+  "Tanjiro": {
+    "charName": "Tanjiro",
+    "charLastName": "Kamado",
+    "charDescription": "Tanjiro Kamado is a Kanoe-ranked member of the Demon Slayer Corps, who joined for the sake of hunting down the one responsible for the murder of his family and his sister's transformation into a Demon.",
+    "charPortrait": "../images/characters/tanjiro.png"
+  },
+  "Nezuko": {
+    "charName": "Nezuko",
+    "charLastName": "Kamado",
+    "charDescription": "Nezuko Kamado is the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family. Formerly human, she was attacked and turned into a Demon by Muzan Kibutsuji.",
+    "charPortrait": "../images/characters/nezuko.png"
+  },
+  "Giyu": {
+    "charName": "Giyu",
+    "charLastName": "Tomioka",
+    "charDescription": "Giyu Tomioka is a Demon Slayer and the Water Hashira of the Demon Slayer Corps. Being a Hashira of the Demon Slayer Corps, Giyu is one of the most powerful and skilled swordsmen in the entire organization.",
+    "charPortrait": "../images/characters/nezuko.png"
+  }
+}
