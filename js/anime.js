@@ -23,7 +23,7 @@ async function displayInfo() {
     <div class="p-2"><h1>${animeTitle}</h1><br/>
     <p>${animeDesc}</p><br/>
     <p>IMDB Rating: ${animeRate}/10</p><br/>
-    <p>Watch ${animeTitle} on: <a href="https://www.netflix.com/title/81091393">Netflix</a> | <a href="https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-2c3e4b00-30d9-434d-bccc-cf346e40e868">Hulu</a></p></div>`
+    <p>Watch ${animeTitle} on: <a href="https://www.netflix.com/title/81091393" target="_blank">Netflix</a> | <a href="https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-2c3e4b00-30d9-434d-bccc-cf346e40e868" target="_blank">Hulu</a></p></div>`
 }
 
 // function displayEpisode() {
