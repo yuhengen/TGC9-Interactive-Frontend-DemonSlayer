@@ -8,7 +8,6 @@ let charIcon = document.querySelector(".character-menu")
 
 charIcon.addEventListener("click", async function (e) {
     let character = await getChar();
-    // console.log(character[e.target.id]["charName"]);
 
     let charName = character[e.target.id]["charName"];
     let charLastName = character[e.target.id]["charLastName"]
