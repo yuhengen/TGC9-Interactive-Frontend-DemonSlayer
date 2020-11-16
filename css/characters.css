@@ -13,29 +13,51 @@ body {
 #character-name {
     position: absolute;
     top: 12%;
-    left:15%;
+    left:18%;
     font-family: dslayer;
     font-size: 7vw;
     color: white;
+    z-index: 11;
+}
+
+#character-lastname {
+    position: absolute;
+    top: 25%;
+    right:52%;
+    font-family: dslayer;
+    font-size: 4vw;
+    color: white;
+    z-index: 11;
+}
+
+#character-portrait {
+    position: absolute;
+    bottom: 0%;
+    right: 18%;
+}
+
+.portrait-size {
+    width: 35vw;
 }
 
 #character-desc {
     position: absolute;
-    top: 25%;
-    left: 15%;
+    top: 38%;
+    left: 18%;
     background-color: rgba(0,0,0,0.7);
-    height: 15vh;
-    width: 20vw;
+    height: 26vh;
+    width: 30vw;
     color:white;
     border-radius: 10px;
+    z-index: 10;
 }
 
 .desc-text {
-    padding-top: 1vw;
-    padding-bottom: 1vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
-    font-size: 1rem;
+    padding-top: 3vh;
+    padding-bottom: 2vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 1.3rem;
 }
 
 #character-desc {

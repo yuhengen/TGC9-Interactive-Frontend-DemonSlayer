@@ -39,6 +39,7 @@ html {
 /* footer */
 .site-footer {
     background-color: #343a40;
+    padding-bottom: 1%;
 }
 
 .fa-facebook-square {
@@ -169,11 +170,12 @@ body {
 
 .ds-image {
     width: 100%;
+    height: 90%;
 }
 
 .download-game {
     position: absolute;
-    bottom: 15%;
+    bottom: 16%;
     left:28%;
     font-family: dslayer;
     font-size: 6vw;
