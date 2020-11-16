@@ -101,23 +101,30 @@ body {
     color: white;
 }
 
+.pcd-btn {
+    position: absolute;
+    width:18vw;
+    bottom: 1%;
+    left: 20%;
+}
+
 .ggl-btn {
     position: absolute;
-    width:19vw;
+    width:18vw;
     bottom: 1%;
-    left: 28%;
+    left: 41%;
 }
 
 .apl-btn {
     position: absolute;
-    width:19vw;
+    width:18vw;
     bottom: 1%;
-    right: 28%;
+    right: 20%;
 }
 
 .banner-logo {
     position: absolute;
-    bottom: 2%;
+    bottom: 10%;
     right: 2%;
-    width: 20vw;
+    width: 18vw;
 }

@@ -4,6 +4,12 @@ async function getAnime() {
     return response.data;
 }
 
+async function getEpisode() {
+    let url = "https://imdb-api.com/en/API/SeasonEpisodes/k_418swyln/tt9335498/1";
+    let response = await axios.get(url);
+    return response.data;
+}
+
 async function displayInfo() {
     let anime = await getAnime();
 
@@ -18,12 +24,6 @@ async function displayInfo() {
     <p>${animeDesc}</p><br/>
     <p>IMDB Rating: ${animeRate}/10</p><br/>
     <p>Watch ${animeTitle} on: <a href="https://www.netflix.com/title/81091393">Netflix</a> | <a href="https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-2c3e4b00-30d9-434d-bccc-cf346e40e868">Hulu</a></p></div>`
-}
-
-async function getEpisode() {
-    let url = "https://imdb-api.com/en/API/SeasonEpisodes/k_418swyln/tt9335498/1";
-    let response = await axios.get(url);
-    return response.data;
 }
 
 // function displayEpisode() {
