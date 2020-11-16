@@ -47,9 +47,17 @@ html {
     font-size:3rem;
 }
 
+.fa-facebook-square:hover {
+    color: red;
+}
+
 .fa-instagram {
     color:white;
     font-size:3rem;
+}
+
+.fa-instagram:hover {
+    color: red;
 }
 
 .fa-youtube-play {
@@ -57,9 +65,17 @@ html {
     font-size:3rem;
 }
 
+.fa-youtube-play:hover {
+    color: red;
+}
+
 .fa-desktop {
     color:white;
     font-size:3rem;
+}
+
+.fa-desktop:hover {
+    color: red;
 }
 
 .fa-google {
@@ -67,9 +83,17 @@ html {
     font-size:3rem;
 }
 
+.fa-google:hover {
+    color: red;
+}
+
 .fa-apple {
     color:white;
     font-size:3rem;
+}
+
+.fa-apple:hover {
+    color: red;
 }
 
 .site-footer h2 {

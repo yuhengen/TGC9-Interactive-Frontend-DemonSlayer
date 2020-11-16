@@ -12,22 +12,22 @@ body {
 
 #character-name {
     position: absolute;
-    top: 12%;
-    left:18%;
+    top: 14%;
+    left:19%;
     font-family: dslayer;
     font-size: 7vw;
     color: white;
-    z-index: 11;
+    z-index: 2;
 }
 
 #character-lastname {
     position: absolute;
-    top: 25%;
+    top: 26%;
     right:52%;
     font-family: dslayer;
     font-size: 4vw;
     color: white;
-    z-index: 11;
+    z-index: 2;
 }
 
 #character-portrait {
@@ -45,8 +45,8 @@ body {
     top: 38%;
     left: 18%;
     background-color: rgba(0,0,0,0.7);
-    height: 26vh;
-    width: 30vw;
+    height: 26%;
+    width: 30%;
     color:white;
     border-radius: 10px;
     z-index: 10;
@@ -80,7 +80,7 @@ li.char-icon {
     text-align:center;
     color:white;
     font-family: dslayer;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     background-color:black;
     border-radius:5px;
 }
@@ -91,7 +91,7 @@ li.char-icon:hover {
 }
 
 .icon-size {
-    height: 16vh;
+    height: 15vh;
     margin-left:2px;
     margin-right:2px;
     padding-top:2px;
