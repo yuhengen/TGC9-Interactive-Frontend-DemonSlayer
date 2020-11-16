@@ -33,7 +33,7 @@ async function displayInfo() {
     let animeShortTitle = anime.title
 
     let intro = document.querySelector("#anime-banner");
-    intro.innerHTML = `<div class="p-2"><img src="${animePoster}" height="400"/></div>
+    intro.innerHTML = `<div class="p-2"><img src="${animePoster}" id="anime-poster"/></div>
     <div class="p-2"><h1>${animeTitle}</h1><br/>
     <p>${animeDesc}</p><br/>
     <p>IMDB Rating: ${animeRate}/10</p><br/>
@@ -94,3 +94,22 @@ async function displayEpisode() {
 
 displayInfo();
 displayEpisode();
+
+//Get the button
+let toTopBtn = document.querySelector(".toTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    toTopBtn.style.display = "block";
+  } else {
+    toTopBtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function toTopFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

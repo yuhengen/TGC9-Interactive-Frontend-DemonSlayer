@@ -4,6 +4,10 @@
     src: url("../fonts/bloodcrow.ttf");
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navilogo {
     padding-right: 5vw;
 }
