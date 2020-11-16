@@ -15,7 +15,6 @@
 }
 
 .navbar {
-    /* background-color: #8b0000; */
     opacity: 0.9;
     position:fixed;
     width: 100vw;
@@ -39,15 +38,44 @@
 
 .site-footer h2 {
     font-family: dslayer;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color: white;
 }
 
+.socials-bar {
+    padding-top: 12px;
+}
+
 .social-btn {
-    width: 50px;
+    width: 40px;
     margin-right: 20px;
     margin-left: 20px;
+}
+
+hr.solid {
+  border-top: 1px solid #bbb;
+}
+
+.footer-logo {
+    width: 8vw;
+}
+
+.footer-logo2 {
+    width: 15vw;
+}
+
+.footer-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footer-text {
+    color:white;
+}
+
+a.footer-text:hover {
+    color:red;
 }
 
 /* Index page CSS */
@@ -84,7 +112,7 @@ body {
 #overlay {
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,1);
     position: fixed;
     left:0;
     top:0;

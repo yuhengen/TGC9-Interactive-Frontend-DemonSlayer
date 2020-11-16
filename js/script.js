@@ -3,6 +3,7 @@ let overlay = document.querySelector("#overlay");
 
 // window.addEventListener("load", function () {
 //     overlay.style.opacity = "0"
+//    body.style.overflow = "scroll";
 // });
 
 setTimeout(function() {

@@ -1,3 +1,16 @@
+// Loading screen transition
+let overlay = document.querySelector("#overlay");
+
+setTimeout(function() {
+    let body = document.querySelector("body");
+    overlay.style.opacity = "0"
+    body.style.overflow = "scroll";
+},1000)
+
+setTimeout(function() {
+    overlay.remove()
+},2000)
+
 async function getAnime() {
     let url = "https://imdb-api.com/en/API/Title/k_418swyln/tt9335498";
     let response = await axios.get(url);
@@ -17,13 +30,14 @@ async function displayInfo() {
     let animePoster = anime.image;
     let animeDesc = anime.plot;
     let animeRate = anime.imDbRating;
+    let animeShortTitle = anime.title
 
     let intro = document.querySelector("#anime-banner");
     intro.innerHTML = `<div class="p-2"><img src="${animePoster}" height="400"/></div>
     <div class="p-2"><h1>${animeTitle}</h1><br/>
     <p>${animeDesc}</p><br/>
     <p>IMDB Rating: ${animeRate}/10</p><br/>
-    <p>Watch ${animeTitle} on: <a href="https://www.netflix.com/title/81091393" target="_blank">Netflix</a> | <a href="https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-2c3e4b00-30d9-434d-bccc-cf346e40e868" target="_blank">Hulu</a></p></div>`
+    <p>Watch ${animeShortTitle} on: <a href="https://www.netflix.com/title/81091393" target="_blank">Netflix</a> | <a href="https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-2c3e4b00-30d9-434d-bccc-cf346e40e868" target="_blank">Hulu</a></p></div>`
 }
 
 // function displayEpisode() {
