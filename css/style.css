@@ -1,4 +1,4 @@
-/* Navbar/Footer CSS */
+/* Shared Navbar/Footer CSS */
 @font-face {
     font-family: dslayer;
     src: url("../fonts/bloodcrow.ttf");
@@ -31,6 +31,23 @@
     min-height: 100%;
     filter: brightness(20%);
     z-index: -100;
+}
+
+.site-footer {
+    background-color: #343a40;
+}
+
+.site-footer h2 {
+    font-family: dslayer;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+
+.social-btn {
+    width: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 /* Index page CSS */

@@ -30,6 +30,7 @@ Welcome to Demon Slayer - Dark War, a game where you will play as Tanjiro to gat
 - View characters
 - Preview gameplay videos and screenshots
 - Provide relevant feedback to support team
+- View relevant content such as the anime series
 
 ### Features to Implement in Future
 - Sign Up/Login with Email or Social Media sites
