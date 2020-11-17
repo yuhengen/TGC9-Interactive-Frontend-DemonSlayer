@@ -57,7 +57,7 @@ body {
     padding-bottom: 2vh;
     padding-left: 2vw;
     padding-right: 2vw;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 #character-desc {
@@ -73,10 +73,25 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
+/* width */
 ::-webkit-scrollbar {
-    background: transparent;
-    /* height:0px; */
-}
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
 
 .character-menu {
     width: 70%;
@@ -107,4 +122,40 @@ li.char-icon:hover {
     margin-left: 2px;
     margin-right: 2px;
     padding-top: 2px;
+}
+
+#hashira-intro {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h2.character-title {
+    color:white;
+    font-family: dslayer;
+    font-size: 6vw;
+    text-align: center;
+    padding-top:3vh;
+}
+
+h3.hashira-title {
+    color:white;
+    font-family: dslayer;
+    font-size: 4vw;
+    text-align: center;
+    padding-top:2vh;
+}
+
+img.hashira-image {
+    width: 80%;
+    margin: auto;
+    padding-bottom:3vh;
+}
+
+div.description-box {
+    width: 77%;
+    margin: auto;
+}
+
+p.organization-description {
+    text-align:center;
+    color: white;
 }

@@ -16,5 +16,11 @@
     "charLastName": "Tomioka",
     "charDescription": "Giyu Tomioka is a Demon Slayer and the Water Hashira of the Demon Slayer Corps. Being a Hashira of the Demon Slayer Corps, Giyu is one of the most powerful and skilled swordsmen in the entire organization.",
     "charPortrait": "images/characters/giyu.png"
+  },
+  "Zenitsu": {
+    "charName": "Zenitsu",
+    "charLastName": "Agatsuma",
+    "charDescription": "Zenitsu Agatsuma is a Demon Slayer and member of the Demon Slayer Corps. He is a traveling companion of Tanjiro, and is a remarkable swordsman who utilizes Thunder Breathing.",
+    "charPortrait": "images/characters/zenitsu.png"
   }
 }
