@@ -4,28 +4,31 @@ body {
 
 #char-viewer {
     position: relative;
+    height: 100vh;
 }
 
 #chars-background {
     width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 #character-name {
     position: absolute;
-    top: 14%;
-    left: 19%;
+    top: 14vh;
+    left: 15vw;
     font-family: dslayer;
-    font-size: 7vw;
+    font-size: 13vh;
     color: white;
     z-index: 2;
 }
 
 #character-lastname {
     position: absolute;
-    top: 26%;
-    right: 52%;
+    top: 25vh;
+    right: 56vw;
     font-family: dslayer;
-    font-size: 4vw;
+    font-size: 8vh;
     color: white;
     z-index: 2;
 }
@@ -33,20 +36,22 @@ body {
 #character-portrait {
     position: absolute;
     bottom: 0%;
-    right: 18%;
+    right: 8vw;
 }
 
 .portrait-size {
-    width: 35vw;
+    height: 85vh;
+    /* width:40vw; */
+    object-fit: cover;
 }
 
 #character-desc {
     position: absolute;
-    top: 38%;
-    left: 18%;
+    bottom: 35vh;
+    left: 14vw;
     background-color: rgba(0, 0, 0, 0.7);
-    height: 24%;
-    width: 30%;
+    height: 20vh;
+    width: 380px;
     color: white;
     border-radius: 10px;
     z-index: 10;
@@ -66,50 +71,39 @@ body {
 
 .scroll-wrapper {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    height: 30vh;
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
-
 .character-menu {
     width: 70%;
+    height: 30vh;
     margin: auto;
     overflow: auto;
+    /* padding-right: 2vw; */
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+    /* white-space: nowrap; */
+    -webkit-overflow-scrolling: touch;
+    justify-content: space-between;
 }
 
 li.char-icon {
-    margin-left: 1vw;
+    margin-left: -39px;
+    margin-right: 50px;
     cursor: pointer;
     list-style: none;
     text-align: center;
     color: white;
     font-family: dslayer;
-    font-size: 1.3rem;
+    font-size: 3vh;
     background-color: black;
     border-radius: 5px;
-    width: 8vw;
+    width: 104px;
+    height: 22vh;
+    /* display:inline-block; */
 }
 
 li.char-icon:hover {
@@ -118,7 +112,7 @@ li.char-icon:hover {
 }
 
 .icon-size {
-    width: 7vw;
+    width: 100px;
     margin-left: 2px;
     margin-right: 2px;
     padding-top: 2px;
@@ -129,25 +123,25 @@ li.char-icon:hover {
 }
 
 h2.character-title {
-    color:white;
+    color: white;
     font-family: dslayer;
     font-size: 6vw;
     text-align: center;
-    padding-top:3vh;
+    padding-top: 3vh;
 }
 
 h3.hashira-title {
-    color:white;
+    color: white;
     font-family: dslayer;
     font-size: 4vw;
     text-align: center;
-    padding-top:2vh;
+    padding-top: 2vh;
 }
 
 img.hashira-image {
     width: 80%;
     margin: auto;
-    padding-bottom:3vh;
+    padding-bottom: 3vh;
 }
 
 div.description-box {
@@ -156,6 +150,6 @@ div.description-box {
 }
 
 p.organization-description {
-    text-align:center;
+    text-align: center;
     color: white;
 }
