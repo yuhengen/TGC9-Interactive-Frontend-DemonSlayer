@@ -1,10 +1,22 @@
 /* Anime Page css */
+
 #anime-page {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
-#anime-poster {
-    width: 350px;
+@media only screen and (max-width: 870px) {
+    #anime-banner {
+        flex-direction: column;
+    }
+    #anime-poster {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 871px) {
+    #anime-poster {
+        width: 350px;
+    }
 }
 
 #anime-banner {
@@ -20,8 +32,8 @@
     color: white;
 }
 
-#accordion .card{
-    background: rgba(0,0,0,0.0) !important;
+#accordion .card {
+    background: rgba(0, 0, 0, 0.0) !important;
 }
 
 #accordion .btn {
@@ -39,36 +51,39 @@
 }
 
 #animebg {
-    position:fixed;
-    width:100%;
-    z-index:-9;
+    position: fixed;
+    width: 100%;
+    z-index: -9;
 }
 
 #animebg-left {
-    bottom:0px;
+    bottom: 0px;
 }
 
 #animebg-right {
-    bottom:0px;
+    bottom: 0px;
 }
 
 .toTopBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
 }
 
 h4 {
     text-align: left;
-    word-wrap: normal;
+}
+
+h5 {
+    text-align: left;
 }

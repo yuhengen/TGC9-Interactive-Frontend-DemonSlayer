@@ -75,7 +75,7 @@ async function displayEpisode() {
         episodeInfo.innerHTML += `<div id="heading${i}" class="card-header">
     <h3 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}">
-          <h4>Episode ${i+1}:<br/>${epiTitle}</h4>
+          <h4>Episode ${i+1}:</h4><h5>${epiTitle}</h5>
         </button>
       </h3>
     </div>

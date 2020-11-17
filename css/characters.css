@@ -13,7 +13,7 @@ body {
     object-fit: cover;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 870px) {
     #character-name {
         position: absolute;
         top: 14vh;
@@ -46,11 +46,11 @@ body {
     #character-portrait {
         position: absolute;
         bottom: 0%;
-        right: 0vw;
+        right: 0;
     }
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 871px) {
     #character-name {
         position: absolute;
         top: 14vh;
@@ -72,7 +72,7 @@ body {
     #character-desc {
         position: absolute;
         bottom: 35vh;
-        left: 13vw;
+        left: 19vw;
         background-color: rgba(0, 0, 0, 0.7);
         height: 20vh;
         width: 380px;
@@ -114,21 +114,19 @@ body {
 }
 
 .character-menu {
-    width: 70%;
+    width: 60%;
     height: 200px;
+    padding: 0;
+    margin: 0;
     margin: auto;
     overflow: auto;
-    /* padding-right: 2vw; */
-    /* overflow-x: scroll;
-    overflow-y: hidden; */
-    /* white-space: nowrap; */
     -webkit-overflow-scrolling: touch;
     justify-content: space-between;
 }
 
 li.char-icon {
-    margin-left: -39px;
-    margin-right: 50px;
+    margin-left: 1vw;
+    margin-right: 1vw;
     cursor: pointer;
     list-style: none;
     text-align: center;
@@ -161,7 +159,7 @@ li.char-icon:hover {
 h2.character-title {
     color: white;
     font-family: dslayer;
-    font-size: 2rem;
+    font-size: 8vh;
     text-align: center;
     padding-top: 3vh;
 }
@@ -169,13 +167,14 @@ h2.character-title {
 h3.hashira-title {
     color: white;
     font-family: dslayer;
-    font-size: 4vw;
+    font-size: 6vh;
     text-align: center;
     padding-top: 2vh;
+    padding-bottom: 2vh;
 }
 
 img.hashira-image {
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding-bottom: 3vh;
 }
