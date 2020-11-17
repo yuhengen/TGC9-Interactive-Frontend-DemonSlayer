@@ -1,12 +1,14 @@
 /* Anime Page css */
+#anime-page {
+    background-color: rgba(0,0,0,0.7);
+}
+
 #anime-poster {
-    width: 20vw;
+    width: 350px;
 }
 
 #anime-banner {
     padding-top: 10vh;
-    background: rgba(0,0,0,0.7);
-    border-radius: 10px;
 }
 
 #anime-banner h1 {
@@ -19,8 +21,7 @@
 }
 
 #accordion .card{
-    background: rgba(0,0,0,0.7) !important;
-    border-radius: 10px;
+    background: rgba(0,0,0,0.0) !important;
 }
 
 #accordion .btn {
@@ -30,19 +31,24 @@
 
 #accordion .card-body {
     color: white;
+    width: 500px;
 }
 
 .episode-image {
-    width: 25vw;
+    width: 350px;
 }
 
 #animebg {
     position:fixed;
     width:100%;
-    z-index:-99;
+    z-index:-9;
 }
 
 #animebg-left {
+    bottom:0px;
+}
+
+#animebg-right {
     bottom:0px;
 }
 
@@ -60,4 +66,9 @@
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+}
+
+h4 {
+    text-align: left;
+    word-wrap: normal;
 }

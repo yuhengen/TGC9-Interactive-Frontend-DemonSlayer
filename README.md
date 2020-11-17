@@ -38,12 +38,12 @@ Welcome to Demon Slayer - Dark War, a game where you will play as Tanjiro to gat
 - FAQ page with search function
 
 ## Structure
-The Demon Slayer - Dark War SiteMap can be found [here](google.com)
+The Demon Slayer - Dark War SiteMap will be added soon.
 
 ## Skeleton
 Most important features and information are displayed first. Our priority is to have players DOWNLOAD the game, so it is the first thing to see on the site. The font size is also generally the largest so as to catch attention.
 
-The Demon Slayer - Dark War wireframes can be found [here](google.com)
+The Demon Slayer - Dark War wireframes will be added soon.
 
 ## Surface
 ### Colors

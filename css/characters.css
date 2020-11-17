@@ -1,5 +1,5 @@
 body {
-    overflow:scroll;
+    overflow: scroll;
 }
 
 #char-viewer {
@@ -13,7 +13,7 @@ body {
 #character-name {
     position: absolute;
     top: 14%;
-    left:19%;
+    left: 19%;
     font-family: dslayer;
     font-size: 7vw;
     color: white;
@@ -23,7 +23,7 @@ body {
 #character-lastname {
     position: absolute;
     top: 26%;
-    right:52%;
+    right: 52%;
     font-family: dslayer;
     font-size: 4vw;
     color: white;
@@ -44,10 +44,10 @@ body {
     position: absolute;
     top: 38%;
     left: 18%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     height: 24%;
     width: 30%;
-    color:white;
+    color: white;
     border-radius: 10px;
     z-index: 10;
 }
@@ -68,31 +68,43 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding-top: 2vh;
-    background-color: rgba(0,0,0,0.8)
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+    /* height:0px; */
+}
+
+.character-menu {
+    width: 70%;
+    margin: auto;
+    overflow: auto;
 }
 
 li.char-icon {
     margin-left: 1vw;
-    margin-right:1vw;
-    cursor:pointer;
+    cursor: pointer;
     list-style: none;
-    text-align:center;
-    color:white;
+    text-align: center;
+    color: white;
     font-family: dslayer;
-    font-size: 1.6rem;
-    background-color:black;
-    border-radius:5px;
+    font-size: 1.3rem;
+    background-color: black;
+    border-radius: 5px;
+    width: 8vw;
 }
 
 li.char-icon:hover {
-    color:black;
-    background-color:white;
+    color: black;
+    background-color: white;
 }
 
 .icon-size {
     width: 7vw;
-    margin-left:2px;
-    margin-right:2px;
-    padding-top:2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 2px;
 }

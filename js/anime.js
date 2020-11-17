@@ -75,13 +75,13 @@ async function displayEpisode() {
         episodeInfo.innerHTML += `<div id="heading${i}" class="card-header">
     <h3 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}">
-          <h3>Episode ${i+1} - ${epiTitle}</h3>
+          <h4>Episode ${i+1}:<br/>${epiTitle}</h4>
         </button>
       </h3>
     </div>
 
     <div id="collapse${i}" class="collapse" aria-labelledby="heading${i}" data-parent="#accordion">
-    <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center flex-wrap">
     <div><img src="${epiImage}" class="episode-image"/></div>
       <div class="card-body">
         <u>Episode Synopsis:</u><br/>
