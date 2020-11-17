@@ -1,11 +1,12 @@
 /* Shared Navbar/Footer CSS */
+
 @font-face {
     font-family: dslayer;
     src: url("../fonts/bloodcrow.ttf");
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .navilogo {
@@ -21,10 +22,10 @@ html {
 
 .navbar {
     opacity: 0.9;
-    position:fixed;
+    position: fixed;
     width: 100vw;
-    z-index:20;
-    margin-top:0px;
+    z-index: 20;
+    margin-top: 0px;
 }
 
 .bgVideo {
@@ -38,6 +39,7 @@ html {
 }
 
 /* footer */
+
 .site-footer {
     background-color: #343a40;
     padding-bottom: 1%;
@@ -45,8 +47,8 @@ html {
 }
 
 .fa-facebook-square {
-    color:white;
-    font-size:2rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .fa-facebook-square:hover {
@@ -54,8 +56,8 @@ html {
 }
 
 .fa-instagram {
-    color:white;
-    font-size:2rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .fa-instagram:hover {
@@ -63,8 +65,8 @@ html {
 }
 
 .fa-youtube-play {
-    color:white;
-    font-size:2rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .fa-youtube-play:hover {
@@ -72,8 +74,8 @@ html {
 }
 
 .fa-desktop {
-    color:white;
-    font-size:2rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .fa-desktop:hover {
@@ -81,8 +83,8 @@ html {
 }
 
 .fa-google {
-    color:white;
-    font-size:2rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .fa-google:hover {
@@ -90,8 +92,8 @@ html {
 }
 
 .fa-apple {
-    color:white;
-    font-size:2rem;
+    color: white;
+    font-size: 2rem;
 }
 
 .fa-apple:hover {
@@ -115,15 +117,40 @@ html {
 }
 
 hr.solid {
-  border-top: 1px solid #bbb;
+    border-top: 1px solid #bbb;
 }
 
-.footer-logo {
-    width: 8vw;
+@media only screen and (max-width: 720px) {
+    .footer-adjustment {
+        flex-wrap: wrap;
+    }
+    .footer-text {
+        color: white;
+        font-size: 0.7em;
+        margin-top: 15px;
+    }
+    .footer-logo {
+        width: 15vw;
+    }
+    .footer-logo2 {
+        width: 25vw;
+    }
 }
 
-.footer-logo2 {
-    width: 15vw;
+@media only screen and (min-width: 721px) {
+    .footer-adjustment {
+        flex-wrap: nowrap;
+    }
+    .footer-text {
+        color: white;
+        font-size: 1em;
+    }
+    .footer-logo {
+        width: 8vw;
+    }
+    .footer-logo2 {
+        width: 15vw;
+    }
 }
 
 .footer-margin {
@@ -131,37 +158,38 @@ hr.solid {
     margin-right: 15px;
 }
 
-.footer-text {
-    color:white;
-    font-size: 1em;
-}
-
 a.footer-text:hover {
-    color:red;
+    color: red;
 }
 
 /* Shared scrollbar design */
+
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 /* Track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
 /* Index page CSS */
+
 body {
     overflow: hidden;
 }
@@ -169,38 +197,36 @@ body {
 .pre-loader {
     width: 80px;
     height: 80px;
-
     border: 2px solid #f3f3f3;
     border-top: 3px solid red;
     border-radius: 100%;
-
     position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     margin: auto;
-
     animation: spin 1s infinite linear;
 }
 
 @keyframes spin {
     from {
         transform: rotate(0deg);
-    } to {
-        transform:rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
 
 #overlay {
     height: 100%;
     width: 100%;
-    background: rgba(0,0,0,1);
+    background: rgba(0, 0, 0, 1);
     position: fixed;
-    left:0;
-    top:0;
-    z-index:100;
-    text-align:center;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    text-align: center;
     transition: opacity 1s;
 }
 
@@ -223,7 +249,7 @@ body {
 .download-game {
     position: absolute;
     bottom: 16%;
-    left:28%;
+    left: 28%;
     font-family: dslayer;
     font-size: 6vw;
     color: white;
@@ -231,21 +257,21 @@ body {
 
 .pcd-btn {
     position: absolute;
-    width:18vw;
+    width: 18vw;
     bottom: 3%;
     left: 20%;
 }
 
 .ggl-btn {
     position: absolute;
-    width:18vw;
+    width: 18vw;
     bottom: 3%;
     left: 41%;
 }
 
 .apl-btn {
     position: absolute;
-    width:18vw;
+    width: 18vw;
     bottom: 3%;
     right: 20%;
 }
