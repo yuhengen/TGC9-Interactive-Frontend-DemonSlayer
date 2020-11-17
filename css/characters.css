@@ -13,7 +13,7 @@ body {
     object-fit: cover;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 860px) {
     #character-name {
         position: absolute;
         top: 14vh;
@@ -48,9 +48,19 @@ body {
         bottom: 0%;
         right: 0;
     }
+    .character-menu {
+        width: 100%;
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        margin: auto;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        justify-content: space-between;
+    }
 }
 
-@media only screen and (min-width: 871px) {
+@media only screen and (min-width: 861px) {
     #character-name {
         position: absolute;
         top: 14vh;
@@ -85,6 +95,16 @@ body {
         bottom: 0%;
         right: 12vw;
     }
+    .character-menu {
+        width: 70%;
+        height: 200px;
+        padding: 0;
+        margin: 0;
+        margin: auto;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+        justify-content: space-between;
+    }
 }
 
 .portrait-size {
@@ -111,17 +131,6 @@ body {
     width: 100%;
     height: 200px;
     background-color: rgba(0, 0, 0, 0.8);
-}
-
-.character-menu {
-    width: 60%;
-    height: 200px;
-    padding: 0;
-    margin: 0;
-    margin: auto;
-    overflow: auto;
-    -webkit-overflow-scrolling: touch;
-    justify-content: space-between;
 }
 
 li.char-icon {
