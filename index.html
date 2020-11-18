@@ -71,18 +71,68 @@
     <!-- End of navbar -->
 
     <!-- Download banner -->
-    <div class="home-image">
+    <div class="home-image d-flex justify-content-center text-center">
         <img src="images/DemonSlayer2.png" class="ds-image" />
-        <h3 class="download-game">Download Game</h3>
-        <a href="https://www.gematsu.com/2020/03/demon-slayer-kimetsu-no-yaiba-games-official-announcement-portal-website-opened"
-            target="_blank"><img src="images/pc-download.png" class="pcd-btn" /></a>
-        <a href="https://play.google.com/store" target="_blank"><img src="images/google-download.png"
-                class="ggl-btn" /></a>
-        <a href="https://www.apple.com/sg/app-store/" target="_blank"><img src="images/apple-download.png"
-                class="apl-btn" /></a>
-
         <img src="images/DSLogo.png" class="banner-logo" />
+        <h1 class="download-game">Download Game</h1>
+        <div class="download-btns mr-3">
+            <a href="https://www.gematsu.com/2020/03/demon-slayer-kimetsu-no-yaiba-games-official-announcement-portal-website-opened"
+                target="_blank"><img src="images/pc-download.png" class="download-btn" /></a>
+            <a href="https://play.google.com/store" target="_blank"><img src="images/google-download.png"
+                    class="download-btn" /></a>
+            <a href="https://www.apple.com/sg/app-store/" target="_blank"><img src="images/apple-download.png"
+                    class="download-btn" /></a>
+        </div>
+
     </div>
+    <!-- End of Download Banner -->
+
+    <!-- News Carousel -->
+    <div class="container">
+        <h3 class="news-title">NEWS</h3>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/characters/hashira.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block carousel-bgcolor">
+                        <h5>Dance of the Hashira</h5>
+                        <p>The Hashira has joined the fray! Dance of Hashira gacha begins on 1 January 2021, obtain your
+                            favorite Hashira now!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/characters/hashira.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block carousel-bgcolor">
+                        <h5>...</h5>
+                        <p>...</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/characters/hashira.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block carousel-bgcolor">
+                        <h5>...</h5>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <!-- End of News Carousel -->
+
+    Characters
 
     <!-- Footer -->
     <footer class="site-footer">
@@ -113,7 +163,7 @@
             </div>
             <div class="footer-margin">
                 <div class="d-flex justify-content-center">
-                    <a href="#"class="footer-text footer-margin">Privacy Policy</a>
+                    <a href="#" class="footer-text footer-margin">Privacy Policy</a>
                     <a href="faq.html" class="footer-text footer-margin">FAQ</a>
                     <a href="support.html" class="footer-text footer-margin">Contact Us</a>
                 </div>

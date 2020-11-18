@@ -54,3 +54,7 @@ Main colors used are those closely related to the Demon Slayer logo
 
 ### Fonts
 Fonts used are mainly the default and the Demon Slayer title font (Blood Crow) for headers.
+
+# Credits
+## Acknowledgement
+This project would have not been possible without w3schools, Bootstrap documentation, Stackoverflow forums and the Demon Slayer: Kimetsu no Yaiba series.
