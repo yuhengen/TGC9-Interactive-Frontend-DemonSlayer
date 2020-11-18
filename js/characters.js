@@ -16,3 +16,22 @@ charIcon.addEventListener("click", async function (e) {
         document.querySelector("#character-portrait").innerHTML = `<img src="${character[e.target.id]["charPortrait"]}" class="portrait-size"/>`
     }
 })
+
+//Get the button
+let toTopBtn = document.querySelector(".toTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    toTopBtn.style.display = "block";
+  } else {
+    toTopBtn.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function toTopFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}

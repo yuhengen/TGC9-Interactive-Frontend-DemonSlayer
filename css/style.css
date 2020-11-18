@@ -145,14 +145,14 @@ hr.solid {
     }
     .footer-text {
         color: white;
-        font-size: 0.8em;
+        font-size: 0.7rem;
         margin-top: 15px;
     }
     .footer-logo {
-        width: 15vw;
+        width: 20vw;
     }
     .footer-logo2 {
-        width: 25vw;
+        width: 35vw;
     }
 }
 
@@ -194,6 +194,27 @@ a.footer-text:hover {
 }
 
 /* End Scrollbar CSS */
+
+/* Return to Top button */
+
+.toTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 10vh;
+    right: 2vw;
+    z-index: 99;
+    font-size: 3vw;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+/* End return to top button */
 
 /* Index page CSS */
 
