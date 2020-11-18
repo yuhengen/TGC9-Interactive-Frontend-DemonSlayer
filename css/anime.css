@@ -4,18 +4,16 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+#anime-poster {
+    width: 350px;
+}
+
 @media only screen and (max-width: 860px) {
     #anime-banner {
         flex-direction: column;
     }
     #anime-poster {
         width: 300px;
-    }
-}
-
-@media only screen and (min-width: 861px) {
-    #anime-poster {
-        width: 350px;
     }
 }
 

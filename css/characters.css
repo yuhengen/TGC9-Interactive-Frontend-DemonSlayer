@@ -13,6 +13,55 @@ body {
     object-fit: cover;
 }
 
+#character-name {
+    position: absolute;
+    top: 14vh;
+    left: 19vw;
+    font-family: dslayer;
+    font-size: 13vh;
+    color: white;
+    z-index: 2;
+}
+
+#character-lastname {
+    position: absolute;
+    top: 28vh;
+    right: 52vw;
+    font-family: dslayer;
+    font-size: 8vh;
+    color: white;
+    z-index: 2;
+}
+
+#character-desc {
+    position: absolute;
+    bottom: 35vh;
+    left: 19vw;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 20vh;
+    width: 380px;
+    color: white;
+    border-radius: 10px;
+    z-index: 10;
+}
+
+#character-portrait {
+    position: absolute;
+    bottom: 0%;
+    right: 12vw;
+}
+
+.character-menu {
+    width: 70%;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 860px) {
     #character-name {
         position: absolute;
@@ -60,56 +109,8 @@ body {
     }
 }
 
-@media only screen and (min-width: 861px) {
-    #character-name {
-        position: absolute;
-        top: 14vh;
-        left: 19vw;
-        font-family: dslayer;
-        font-size: 13vh;
-        color: white;
-        z-index: 2;
-    }
-    #character-lastname {
-        position: absolute;
-        top: 28vh;
-        right: 52vw;
-        font-family: dslayer;
-        font-size: 8vh;
-        color: white;
-        z-index: 2;
-    }
-    #character-desc {
-        position: absolute;
-        bottom: 35vh;
-        left: 19vw;
-        background-color: rgba(0, 0, 0, 0.7);
-        height: 20vh;
-        width: 380px;
-        color: white;
-        border-radius: 10px;
-        z-index: 10;
-    }
-    #character-portrait {
-        position: absolute;
-        bottom: 0%;
-        right: 12vw;
-    }
-    .character-menu {
-        width: 70%;
-        height: 200px;
-        padding: 0;
-        margin: 0;
-        margin: auto;
-        overflow: auto;
-        -webkit-overflow-scrolling: touch;
-        justify-content: space-between;
-    }
-}
-
 .portrait-size {
     height: 85vh;
-    /* width:40vw; */
     object-fit: cover;
 }
 
@@ -146,7 +147,6 @@ li.char-icon {
     border-radius: 5px;
     width: 104px;
     height: 140px;
-    /* display:inline-block; */
 }
 
 li.char-icon:hover {
@@ -161,39 +161,81 @@ li.char-icon:hover {
     padding-top: 2px;
 }
 
-#hashira-intro {
+.all-characters-intro {
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-h2.character-title {
+h2.dsc-characters-title {
     color: white;
     font-family: dslayer;
     font-size: 8vh;
     text-align: center;
     padding-top: 3vh;
+    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
 }
 
-h3.hashira-title {
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred, 0 0 60px darkred, 0 0 70px darkred;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+    }
+}
+
+h3.dsc-characters-subtitle {
     color: white;
     font-family: dslayer;
     font-size: 6vh;
     text-align: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
-img.hashira-image {
+img.dsc-image {
     width: 90%;
     margin: auto;
-    padding-bottom: 3vh;
 }
 
 div.description-box {
-    width: 77%;
+    width: 80%;
     margin: auto;
 }
 
 p.organization-description {
-    text-align: center;
+    /* text-align: center; */
     color: white;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+h2.dem-characters-title {
+    color: red;
+    font-family: dslayer;
+    font-size: 8vh;
+    text-align: center;
+    padding-top: 3vh;
+    -webkit-animation: glow-2 2s ease-in-out infinite alternate;
+    -moz-animation: glow-2 2s ease-in-out infinite alternate;
+    animation: glow-2 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow-2 {
+    from {
+        text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px #57595d, 0 0 40px #57595d, 0 0 50px #57595d, 0 0 60px #57595d, 0 0 70px #57595d;
+    }
+    to {
+        text-shadow: 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
+    }
+}
+
+h3.dem-characters-subtitle {
+    color: red;
+    font-family: dslayer;
+    font-size: 6vh;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }

@@ -1,4 +1,4 @@
-/* Shared Navbar/Footer CSS */
+/* Shared Navbar CSS */
 
 @font-face {
     font-family: dslayer;
@@ -38,7 +38,9 @@ html {
     z-index: -10;
 }
 
-/* footer */
+/* End Navbar CSS */
+
+/* Footer CSS*/
 
 .site-footer {
     background-color: #343a40;
@@ -120,6 +122,23 @@ hr.solid {
     border-top: 1px solid #bbb;
 }
 
+.footer-adjustment {
+    flex-wrap: nowrap;
+}
+
+.footer-text {
+    color: white;
+    font-size: 1em;
+}
+
+.footer-logo {
+    width: 8vw;
+}
+
+.footer-logo2 {
+    width: 15vw;
+}
+
 @media only screen and (max-width: 720px) {
     .footer-adjustment {
         flex-wrap: wrap;
@@ -137,22 +156,6 @@ hr.solid {
     }
 }
 
-@media only screen and (min-width: 721px) {
-    .footer-adjustment {
-        flex-wrap: nowrap;
-    }
-    .footer-text {
-        color: white;
-        font-size: 1em;
-    }
-    .footer-logo {
-        width: 8vw;
-    }
-    .footer-logo2 {
-        width: 15vw;
-    }
-}
-
 .footer-margin {
     margin-left: 15px;
     margin-right: 15px;
@@ -162,35 +165,45 @@ a.footer-text:hover {
     color: red;
 }
 
+/* End Footer CSS */
+
 /* Shared scrollbar design */
+
 /* width */
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 /* Track */
+
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 
 /* Handle */
+
 ::-webkit-scrollbar-thumb {
     background: #888;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 
+/* End Scrollbar CSS */
+
 /* Index page CSS */
+
 body {
     overflow: hidden;
 }
 
 .pre-loader {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border: 2px solid #f3f3f3;
     border-top: 3px solid red;
     border-radius: 100%;
@@ -224,11 +237,11 @@ body {
     transition: opacity 1s;
 }
 
-#overlay .loader-text {
+.loader-text {
     font-family: dslayer;
     color: white;
-    padding-top: 13%;
-    font-size: 5vw;
+    font-size: 6vw;
+    padding-top: 25vh;
 }
 
 .home-image {
@@ -247,6 +260,18 @@ body {
     font-family: dslayer;
     font-size: 6vw;
     color: white;
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred, 0 0 60px darkred, 0 0 70px darkred;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
+    }
 }
 
 .pcd-btn {
