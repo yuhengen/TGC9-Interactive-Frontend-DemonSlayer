@@ -21,7 +21,7 @@ html {
 }
 
 .navbar {
-    opacity: 0.9;
+    opacity: 0.95;
     position: fixed;
     width: 100vw;
     z-index: 20;
@@ -323,7 +323,7 @@ body {
     font-size: 6vw;
     color: white;
     text-align: center;
-    margin-top: 5vh;
+    margin-top: 7vh;
     -webkit-animation: glow 3s ease-in-out infinite alternate;
     -moz-animation: glow 3s ease-in-out infinite alternate;
     animation: glow 3s ease-in-out infinite alternate;
