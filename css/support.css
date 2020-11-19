@@ -2,8 +2,13 @@ body {
     overflow: scroll;
 }
 
+.support-image {
+    width:100%;
+    object-fit: cover;
+}
+
 .container {
-    padding: 0 15vw 10vh 15vw;
+    padding: 0 10vw 10vh 10vw;
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -11,8 +16,8 @@ h3 {
     text-align: center;
     font-family: dslayer;
     color:white;
-    font-size: 3vw;
-    padding-top: 10vh;
+    font-size: 5vh;
+    padding-top: 7vh;
 }
 
 p {
@@ -21,5 +26,5 @@ p {
 }
 
 label {
-
+    color:white;
 }
