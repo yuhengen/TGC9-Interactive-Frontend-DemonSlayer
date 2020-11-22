@@ -74,18 +74,18 @@
         <h3>We want to hear from you!</h3>
         <p>Did you meet any issues in the game? Have any constructive suggestions for game improvements?<br />
             Feel free to write in to us! Our customer service team will make sure to look through them regularly!</p>
-        <form>
+        <form id="feedback-form">
             <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="feedback-email">Email address</label>
+                <input type="email" class="form-control" id="feedback-email" placeholder="name@example.com">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Name</label>
-                <input class="form-control" type="text" placeholder="Name">
+                <label for="feedback-name">Name</label>
+                <input class="form-control" type="text" placeholder="feedback-name">
             </div>
             <div class="form-group">
-                <label for="exampleFormControlSelect1">Category of Issue (Select One)</label>
-                <select class="form-control" id="exampleFormControlSelect1">
+                <label for="feedback-issue">Category of Issue (Select One)</label>
+                <select class="form-control" id="feedback-issue">
                     <option>---Select Issue---</option>
                     <option>Account Issue</option>
                     <option>In-Game Bug</option>
@@ -95,8 +95,8 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlTextarea1">Description of Issue</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                <label for="feedback-desc">Description of Issue</label>
+                <textarea class="form-control" id="feedback-desc" rows="6"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
