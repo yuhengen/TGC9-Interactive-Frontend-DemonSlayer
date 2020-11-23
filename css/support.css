@@ -3,28 +3,32 @@ body {
 }
 
 .support-image {
-    width:100%;
+    width: 100%;
     object-fit: cover;
 }
 
 .container {
     padding: 0 10vw 10vh 10vw;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 h3 {
     text-align: center;
     font-family: dslayer;
-    color:white;
+    color: white;
     font-size: 5vh;
     padding-top: 7vh;
 }
 
 p {
-    color:white;
+    color: white;
     text-align: center;
 }
 
 label {
-    color:white;
+    color: white;
+}
+
+#emailError, #nameError {
+    color: red;
 }
