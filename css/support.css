@@ -29,6 +29,6 @@ label {
     color: white;
 }
 
-#emailError, #nameError {
+#emailError, #nameError, #issueError {
     color: red;
 }

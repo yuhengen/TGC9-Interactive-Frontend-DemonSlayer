@@ -88,17 +88,19 @@
             <div class="form-group">
                 <label for="feedback-issue">Category of Issue (Select One)</label>
                 <select class="form-control" id="feedback-issue">
-                    <option>---Select Issue---</option>
-                    <option>Account Issue</option>
-                    <option>In-Game Bug</option>
-                    <option>Game Update Issue</option>
-                    <option>Improvement Suggestion</option>
-                    <option>Others</option>
+                    <option value="0">---Select Issue---</option>
+                    <option value="account-issue">Account Issue</option>
+                    <option value="game-bug">In-Game Bug</option>
+                    <option value="update-issue">Game Update Issue</option>
+                    <option value="improvement">Improvement Suggestion</option>
+                    <option value="others">Others (Please elaborate below)</option>
                 </select>
+                <span id="issueError"></span>
             </div>
             <div class="form-group">
                 <label for="feedback-desc">Description of Issue</label>
                 <textarea class="form-control" id="feedback-desc" rows="6"></textarea>
+                <span id="descError"></span>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

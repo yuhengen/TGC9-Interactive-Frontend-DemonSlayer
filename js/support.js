@@ -9,6 +9,7 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
     // Clear error messages
     document.querySelector("#emailError").innerHTML = ""
     document.querySelector("#nameError").innerHTML = ""
+    document.querySelector("#issueError").innerHTML = ""
 
     // Check email for @ and .
     let email = document.querySelector("#feedback-email").value;
@@ -29,15 +30,28 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
         }
     }
 
+    // Check dropdown list
+    let dropdown = document.querySelector("#feedback-issue").value;
+    if (dropdown == "0" || dropdown == "") {
+        issueError = true;
+    }
+
     // Display error messages
     if (emailError) {
-        document.querySelector("#emailError").innerHTML = "Email should include an '@' and a '.'"
+        document.querySelector("#emailError").innerHTML = "*Email should include an '@' and a '.'"
         event.preventDefault();
     }
     if (nameError) {
-        document.querySelector("#nameError").innerHTML = "Username should not contain symbols and must be between 4 and 15 characters"
+        document.querySelector("#nameError").innerHTML = "*Username should not contain symbols and must be between 4 and 15 characters"
+        event.preventDefault();
+    }
+    if (issueError) {
+        document.querySelector("#issueError").innerHTML = "*Please select an option"
         event.preventDefault();
     }
 
-    alert("Your feedback has been submitted! We will get back to you shortly");
+    if (!emailError && !nameError && !issueError) {
+        alert("Your feedback has been submitted! We will get back to you shortly");
+        document.querySelector("feedback-form").submit();
+    }
 })
