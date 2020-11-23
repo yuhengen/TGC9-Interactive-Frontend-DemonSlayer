@@ -10,6 +10,7 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
     document.querySelector("#emailError").innerHTML = ""
     document.querySelector("#nameError").innerHTML = ""
     document.querySelector("#issueError").innerHTML = ""
+    document.querySelector("#descError").innerHTML = ""
 
     // Check email for @ and .
     let email = document.querySelector("#feedback-email").value;
@@ -36,6 +37,12 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
         issueError = true;
     }
 
+    // Check description not empty
+    let description = document.querySelector("#feedback-desc").value;
+    if (description.length < 1) {
+        descError = true;
+    }
+
     // Display error messages
     if (emailError) {
         document.querySelector("#emailError").innerHTML = "*Email should include an '@' and a '.'"
@@ -49,7 +56,12 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
         document.querySelector("#issueError").innerHTML = "*Please select an option"
         event.preventDefault();
     }
+    if (descError) {
+        document.querySelector("#descError").innerHTML = "*Do not leave the description field empty"
+        event.preventDefault();
+    }
 
+    // Submit
     if (!emailError && !nameError && !issueError) {
         alert("Your feedback has been submitted! We will get back to you shortly");
         document.querySelector("feedback-form").submit();
