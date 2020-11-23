@@ -1,19 +1,14 @@
 // Loading screen transition
 let overlay = document.querySelector("#overlay");
 
-// window.addEventListener("load", function () {
-//     overlay.style.opacity = "0"
-//    body.style.overflow = "scroll";
-// });
-
-setTimeout(function() {
+window.onload = function () {
+  setTimeout(function () {
     let body = document.querySelector("body");
     overlay.style.opacity = "0"
     body.style.overflow = "scroll";
-},2000)
+  }, 2000)
 
-setTimeout(function() {
-    // let body = document.querySelector("body");
-    // body.removeChild(overlay)
+  setTimeout(function () {
     overlay.remove()
-},3000)
+  }, 3000)
+};

@@ -16,7 +16,7 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
     let email = document.querySelector("#feedback-email").value;
     if (!email.includes("@") || !email.includes(".")) {
         emailError = true;
-    }
+    }    
 
     // Check username (Min 4 characters, Max 15 characters, no symbols)
     let username = document.querySelector("#feedback-name").value;
@@ -62,7 +62,7 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
     }
 
     // Submit
-    if (!emailError && !nameError && !issueError) {
+    if (!emailError && !nameError && !issueError && !descError) {
         alert("Your feedback has been submitted! We will get back to you shortly");
         document.querySelector("feedback-form").submit();
     }

@@ -1,39 +1,41 @@
 // Loading screen transition
 let overlay = document.querySelector("#overlay");
 
-setTimeout(function() {
+window.onload = function () {
+  setTimeout(function () {
     let body = document.querySelector("body");
     overlay.style.opacity = "0"
     body.style.overflow = "scroll";
-},2000)
+  }, 1500)
 
-setTimeout(function() {
+  setTimeout(function () {
     overlay.remove()
-},3000)
+  }, 2500)
+};
 
 async function getAnime() {
-    let url = "https://imdb-api.com/en/API/Title/k_418swyln/tt9335498";
-    let response = await axios.get(url);
-    return response.data;
+  let url = "https://imdb-api.com/en/API/Title/k_418swyln/tt9335498";
+  let response = await axios.get(url);
+  return response.data;
 }
 
 async function getEpisode() {
-    let url = "https://imdb-api.com/en/API/SeasonEpisodes/k_418swyln/tt9335498/1";
-    let response = await axios.get(url);
-    return response.data;
+  let url = "https://imdb-api.com/en/API/SeasonEpisodes/k_418swyln/tt9335498/1";
+  let response = await axios.get(url);
+  return response.data;
 }
 
 async function displayInfo() {
-    let anime = await getAnime();
+  let anime = await getAnime();
 
-    let animeTitle = anime.fullTitle;
-    let animePoster = anime.image;
-    let animeDesc = anime.plot;
-    let animeRate = anime.imDbRating;
-    let animeShortTitle = anime.title
+  let animeTitle = anime.fullTitle;
+  let animePoster = anime.image;
+  let animeDesc = anime.plot;
+  let animeRate = anime.imDbRating;
+  let animeShortTitle = anime.title
 
-    let intro = document.querySelector("#anime-banner");
-    intro.innerHTML = `<div class="p-2"><img src="${animePoster}" id="anime-poster"/></div>
+  let intro = document.querySelector("#anime-banner");
+  intro.innerHTML = `<div class="p-2"><img src="${animePoster}" id="anime-poster"/></div>
     <div class="p-2"><h1>${animeTitle}</h1><br/>
     <p>${animeDesc}</p><br/>
     <p>IMDB Rating: ${animeRate}/10</p><br/>
@@ -64,18 +66,18 @@ async function displayInfo() {
 // }
 
 async function displayEpisode() {
-    let epi = await getEpisode();
+  let epi = await getEpisode();
 
-    for (let i = 0; i <= epi.episodes.length; i++) {
-        let epiTitle = epi.episodes[i].title;
-        let epiImage = epi.episodes[i].image;
-        let epiPlot = epi.episodes[i].plot;
+  for (let i = 0; i <= epi.episodes.length; i++) {
+    let epiTitle = epi.episodes[i].title;
+    let epiImage = epi.episodes[i].image;
+    let epiPlot = epi.episodes[i].plot;
 
-        let episodeInfo = document.querySelector("#episodes-info");
-        episodeInfo.innerHTML += `<div id="heading${i}" class="card-header">
+    let episodeInfo = document.querySelector("#episodes-info");
+    episodeInfo.innerHTML += `<div id="heading${i}" class="card-header">
     <h3 class="mb-0">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}">
-          <h4>Episode ${i+1}:</h4><h5>${epiTitle}</h5>
+          <h4>Episode ${i + 1}:</h4><h5>${epiTitle}</h5>
         </button>
       </h3>
     </div>
@@ -89,7 +91,7 @@ async function displayEpisode() {
       </div>
       </div>
     </div>`
-    }
+  }
 }
 
 displayInfo();
@@ -99,7 +101,7 @@ displayEpisode();
 let toTopBtn = document.querySelector(".toTopBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
   if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
     toTopBtn.style.display = "block";

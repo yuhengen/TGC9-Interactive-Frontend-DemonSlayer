@@ -2,36 +2,50 @@
   "Tanjiro": {
     "charName": "Tanjiro",
     "charLastName": "Kamado",
-    "charDescription": "Tanjiro Kamado is a Kanoe-ranked member of the Demon Slayer Corps, who joined for the sake of hunting down the one responsible for the murder of his family and his sister's transformation into a Demon.",
+    "charDescription": "Tanjiro Kamado is a Kanoe-ranked member of the Demon Slayer Corps, who joined for the sake of hunting down the one responsible for the murder of his family and his sister's transformation into a Demon. Tanjiro has now learned to do Total Concentration Water Breathing at all times, further increasing his base strength, speed, and stamina",
     "charPortrait": "images/characters/tanjiro.png",
     "charRank": "DemonSlayer"
   },
   "Nezuko": {
     "charName": "Nezuko",
     "charLastName": "Kamado",
-    "charDescription": "Nezuko Kamado is the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family. Formerly human, she was attacked and turned into a Demon by Muzan Kibutsuji.",
+    "charDescription": "Nezuko Kamado is the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family. Formerly human, she was attacked and turned into a Demon by Muzan Kibutsuji. Nezuko's most defining trait as a demon is her ability to continuously restore her power, without consuming any human life.",
     "charPortrait": "images/characters/nezuko.png",
     "charRank": "DemonSlayer"
   },
   "Zenitsu": {
     "charName": "Zenitsu",
     "charLastName": "Agatsuma",
-    "charDescription": "Zenitsu Agatsuma is a Demon Slayer and member of the Demon Slayer Corps. He is a traveling companion of Tanjiro, and is a remarkable swordsman who utilizes Thunder Breathing.",
+    "charDescription": "Zenitsu Agatsuma is a Demon Slayer and member of the Demon Slayer Corps. He is a traveling companion of Tanjiro, and is a remarkable swordsman who utilizes Thunder Breathing, increasing his strength and agility to equal a Demon.",
     "charPortrait": "images/characters/zenitsu.png",
     "charRank": "DemonSlayer"
   },
   "Inosuke": {
     "charName": "Inosuke",
     "charLastName": "Hashibara",
-    "charDescription": "Inosuke Hashibira is a Demon Slayer in the Demon Slayer Corps. He is a traveling companion of Tanjiro Kamado, and is the original creator of the Beast Breathing style.",
+    "charDescription": "Inosuke Hashibira is a Demon Slayer in the Demon Slayer Corps. He is a traveling companion of Tanjiro Kamado, and is the original creator and sole user of the Beast Breathing style. With his enhanced sense of touch, Inosuke can utilize several different techniques.",
     "charPortrait": "images/characters/inosuke.png",
     "charRank": "DemonSlayer"
   },
   "Giyu": {
     "charName": "Giyu",
     "charLastName": "Tomioka",
-    "charDescription": "Giyu Tomioka is a Demon Slayer and the Water Hashira of the Demon Slayer Corps. Being a Hashira of the Demon Slayer Corps, Giyu is one of the most powerful and skilled swordsmen in the entire organization.",
+    "charDescription": "Giyu Tomioka is a Demon Slayer and the Water Hashira of the Demon Slayer Corps. Being a Hashira of the Demon Slayer Corps, Giyu is one of the most powerful and skilled swordsmen in the entire organization. He knows all of the Water Breathing techniques and has developed one additional form of his own.",
     "charPortrait": "images/characters/giyu.png",
+    "charRank": "Hashira"
+  },
+  "Shinobu": {
+    "charName": "Shinobu",
+    "charLastName": "Kocho",
+    "charDescription": "Shinobu Kocho is a Demon Slayer and the Insect Hashira of the Demon Slayer Corps. Despite not possessing the physical strength to cut off a Demon's head, Shinobu is nonetheless as dangerous and deadly as the rest of them.",
+    "charPortrait": "images/characters/shinobu.png",
+    "charRank": "Hashira"
+  },
+  "Kyojuro": {
+    "charName": "Kyojuro",
+    "charLastName": "Rengoku",
+    "charDescription": "Kyojuro Rengoku is a Demon Slayer and the Flame Hashira of the Demon Slayer Corps. Kyojuro trained himself into the level of a Hashira after reading through an instruction book of the Flame Breathing style and is one of the most powerful and skilled swordsmen in the entire organization.",
+    "charPortrait": "images/characters/kyojuro.png",
     "charRank": "Hashira"
   }
 }
