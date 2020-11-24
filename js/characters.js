@@ -1,3 +1,18 @@
+// Loading screen transition
+let overlay = document.querySelector("#overlay");
+
+window.onload = function () {
+  setTimeout(function () {
+    let body = document.querySelector("body");
+    overlay.style.opacity = "0"
+    body.style.overflow = "scroll";
+  }, 500)
+
+  setTimeout(function () {
+    overlay.remove()
+  }, 1500)
+};
+
 async function getChar() {
     let response = await axios.get("js/characters.json");
     return response.data;
@@ -20,7 +35,7 @@ charIcon.addEventListener("click", async function (e) {
 //Get the button
 let toTopBtn = document.querySelector(".toTopBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
+// When the user scrolls down 500px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {

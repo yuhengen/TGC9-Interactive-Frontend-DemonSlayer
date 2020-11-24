@@ -54,6 +54,16 @@ body {
 .portrait-size {
     height: 85vh;
     object-fit: cover;
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .desc-text {
