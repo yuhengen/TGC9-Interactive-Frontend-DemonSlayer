@@ -55,6 +55,17 @@ Main colors used are those closely related to the Demon Slayer logo
 ### Fonts
 Fonts used are mainly the default and the Demon Slayer title font (Blood Crow) for headers.
 
+# Technologies used
+- HTML
+- CSS
+- Javascript
+- [Bootstrap version 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [GitHub](https://github.com/)
+
 # Credits
 ## Acknowledgement
 This project would have not been possible without w3schools, Bootstrap documentation, Stackoverflow forums and the Demon Slayer: Kimetsu no Yaiba series.
+
+## Images and videos
+- Credits to Google and Kimetsu no Yaiba wikia for the Images
+- Credits to YouTube for the videos
