@@ -1,7 +1,3 @@
-body {
-    overflow: scroll;
-}
-
 #char-viewer {
     position: relative;
     height: 100vh;
@@ -55,15 +51,6 @@ body {
     height: 85vh;
     object-fit: cover;
     animation: fadeIn 1s;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .desc-text {
@@ -137,15 +124,6 @@ h2.dsc-characters-title {
     -webkit-animation: glow 2s ease-in-out infinite alternate;
     -moz-animation: glow 2s ease-in-out infinite alternate;
     animation: glow 2s ease-in-out infinite alternate;
-}
-
-@-webkit-keyframes glow {
-    from {
-        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px darkred, 0 0 40px darkred, 0 0 50px darkred, 0 0 60px darkred, 0 0 70px darkred;
-    }
-    to {
-        text-shadow: 0 0 20px #fff, 0 0 30px red, 0 0 40px red, 0 0 50px red, 0 0 60px red, 0 0 70px red, 0 0 80px red;
-    }
 }
 
 h3.dsc-characters-subtitle {
