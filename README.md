@@ -11,6 +11,8 @@ Welcome to Demon Slayer - Dark War, a game where you will play as Tanjiro to gat
 
 - As the game developer, I want a Support page so that our players can provide feedback to us regarding game issues or improvements.
 
+- As the game developer and publisher, I want to keep the players updated on the newest developments of the game.
+
 - As the game developer, I want the existing and potential players to visit the website so that we can showcase to them the gameplay videos and its contents, as well as engaging in special events and contests.
 
 - As the owner of the Kimetsu no Yaiba (Demon Slayer) series, I want the fans of the series to visit the website so that I can let them experience Demon Slayer in other forms other than the anime, such as the game.
