@@ -6,11 +6,11 @@ window.onload = function () {
     let body = document.querySelector("body");
     overlay.style.opacity = "0"
     body.style.overflow = "scroll";
-  }, 1500)
+  }, 2000)
 
   setTimeout(function () {
     overlay.remove()
-  }, 2500)
+  }, 3000)
 };
 
 async function getAnime() {

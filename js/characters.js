@@ -6,11 +6,11 @@ window.onload = function () {
     let body = document.querySelector("body");
     overlay.style.opacity = "0"
     body.style.overflow = "scroll";
-  }, 500)
+  }, 1000)
 
   setTimeout(function () {
     overlay.remove()
-  }, 1500)
+  }, 2000)
 };
 
 async function getChar() {

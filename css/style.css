@@ -301,7 +301,7 @@ body {
     position: absolute;
     bottom: 16%;
     font-family: dslayer;
-    font-size: 7vw;
+    font-size: 8vw;
     color: white;
     -webkit-animation: glow 3s ease-in-out infinite alternate;
     -moz-animation: glow 3s ease-in-out infinite alternate;
@@ -363,7 +363,7 @@ body {
     bottom: 0vh !important;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     .download-game {
         bottom: 70vh;
         font-size: 12vw;
@@ -375,7 +375,7 @@ body {
         width: 80%;
     }
     .download-btn {
-        width: 50vw;
+        width: 45vw;
         margin-top: 2vh;
     }
     .banner-logo {
