@@ -1,0 +1,21 @@
+.about-image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-container {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.features-title {
+    color: white;
+    font-family: dslayer;
+    font-size: 8vh;
+    text-align: center;
+    padding-top: 3vh;
+    text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+}
+
+* {
+    box-sizing: border-box;
+}

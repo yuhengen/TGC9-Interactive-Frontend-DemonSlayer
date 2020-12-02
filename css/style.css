@@ -301,6 +301,7 @@ body {
     font-family: dslayer;
     font-size: 8vw;
     color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .download-btns {
@@ -328,9 +329,7 @@ body {
     color: white;
     text-align: center;
     margin-top: 7vh;
-    -webkit-animation: glow 3s ease-in-out infinite alternate;
-    -moz-animation: glow 3s ease-in-out infinite alternate;
-    animation: glow 3s ease-in-out infinite alternate;
+    text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
 }
 
 .carousel-bgcolor {
