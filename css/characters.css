@@ -121,9 +121,9 @@ h2.dsc-characters-title {
     font-size: 8vh;
     text-align: center;
     padding-top: 3vh;
-    -webkit-animation: glow 2s ease-in-out infinite alternate;
+    /* -webkit-animation: glow 2s ease-in-out infinite alternate;
     -moz-animation: glow 2s ease-in-out infinite alternate;
-    animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate; */
 }
 
 h3.dsc-characters-subtitle {
@@ -158,19 +158,19 @@ h2.dem-characters-title {
     font-size: 8vh;
     text-align: center;
     padding-top: 3vh;
-    -webkit-animation: glow-2 2s ease-in-out infinite alternate;
+    /* -webkit-animation: glow-2 2s ease-in-out infinite alternate;
     -moz-animation: glow-2 2s ease-in-out infinite alternate;
-    animation: glow-2 2s ease-in-out infinite alternate;
+    animation: glow-2 2s ease-in-out infinite alternate; */
 }
 
-@-webkit-keyframes glow-2 {
+/* @-webkit-keyframes glow-2 {
     from {
         text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px #57595d, 0 0 40px #57595d, 0 0 50px #57595d, 0 0 60px #57595d, 0 0 70px #57595d;
     }
     to {
         text-shadow: 0 0 20px red, 0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black, 0 0 80px black;
     }
-}
+} */
 
 h3.dem-characters-subtitle {
     color: red;
