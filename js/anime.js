@@ -42,29 +42,6 @@ async function displayInfo() {
     <p>Watch ${animeShortTitle} on: <a href="https://www.netflix.com/title/81091393" target="_blank">Netflix</a> | <a href="https://www.hulu.com/series/demon-slayer-kimetsu-no-yaiba-2c3e4b00-30d9-434d-bccc-cf346e40e868" target="_blank">Hulu</a></p></div>`
 }
 
-// function displayEpisode() {
-//     for (let i = 0; i < 25; i++) {
-//         let episodeInfo = document.querySelector("#episodes-info");
-//         episodeInfo.innerHTML += `<div id="heading${i}" class="card-header">
-//         <h3 class="mb-0">
-//             <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse${i}" aria-expanded="false" aria-controls="collapse${i}">
-//               <h3>Episode ${i}<h3>
-//             </button>
-//           </h3>
-//         </div>
-
-//         <div id="collapse${i}" class="collapse" aria-labelledby="heading${i}" data-parent="#accordion">
-//         <div class="d-flex align-items-center">
-//         <div>Image ${i}</div>
-//           <div class="card-body">
-//             Episode Synopsis:<br/>
-//             <p>Description ${i}</p>
-//           </div>
-//           </div>
-//         </div>`
-//     }
-// }
-
 async function displayEpisode() {
   let epi = await getEpisode();
 
@@ -103,7 +80,7 @@ let toTopBtn = document.querySelector(".toTopBtn");
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
-  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
     toTopBtn.style.display = "block";
   } else {
     toTopBtn.style.display = "none";
