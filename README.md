@@ -16,7 +16,7 @@ Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive
 The primary purpose of this website is to let players download the game, as well as to give the game and the Demon Slayer series more exposure. The contents of the website will therefore contain the download links and more information about the Demon Slayer - Dark War game, targeted at potential players.
 
 ## Owner Stories
-
+```
 - As the owner of the website, I want to create a user-friendly and attractive website so that my visitors can easily download the game on different platforms, as well as enjoy their time on the site.
 
 - As the game developer, I want a Support page so that our players can provide feedback to us regarding game issues or improvements.
@@ -26,17 +26,19 @@ The primary purpose of this website is to let players download the game, as well
 - As the game developer, I want the existing and potential players to visit the website so that we can showcase to them the gameplay videos and its contents, as well as engaging in special events and contests.
 
 - As the owner of the Kimetsu no Yaiba (Demon Slayer) series, I want the fans of the series to visit the website so that I can let them experience Demon Slayer in other forms other than the anime, such as the game.
-
+```
 ## User Stories (Players and Potential players)
-
+```
 - As a user, I want to find a website to download the game so that I can play it on different platforms.
 
 - As a player, I want a platform where I can reach the support team so that I can provide valuable feedback and improvements to the development team of the game.
 
 - As a user, I want a website where I can preview the game and its contents so that I will know whether I want to try the game out.
+```
 
 # The Requirements (Scope)
 ## Current Features
+```
 - Download the game on PC, Android/Apple phones via provided links
 - View playable characters by using Axios to read JSON files
 - Preview gameplay videos from YouTube and in-game screenshots & GIFs
@@ -45,13 +47,15 @@ The primary purpose of this website is to let players download the game, as well
 - Mobile responsiveness
 - Ease of navigation with the Bootstrap Navbar
 - Credits and more navigation on Footer
-
+```
 ## Features to Implement in Future
+```
 - Sign Up/Login with Email or Social Media sites
 - Claiming of Code (For in-game rewards)
 - FAQ page with search function
 - Privacy Policy page (When necessary)
 - Database/Local storage for login and prevention of the re-loading screen
+```
 
 # Developing the Site Structure (Structure)
 The Demon Slayer - Dark War website has a navigation bar and footer on every page, so that users can access every page with ease. As there are a lot of local images in the pages, a loading overlay has been added to every page so as to pre-load the assets before visitors can see them.
@@ -71,7 +75,7 @@ The sitemap is as shown in the diagram below:
 Most important features and information are displayed first. Our priority is to have players DOWNLOAD the game, so it is the first thing we see upon entering the website. The font size is also generally the largest so as to catch attention.
 
 The Demon Slayer - Dark War wireframes will be added soon.
-
+```
 ### Home
 - Starts with a home page, displaying a banner of the Demon Slayer series and the download buttons
 - This page's main focus is to get the visitors to download the game, which is the first thing they see upon entering the site
@@ -96,6 +100,7 @@ The Demon Slayer - Dark War wireframes will be added soon.
 - A page for FAQs for general enquiries
 ### Privacy Policy (TBC)
 - A page for the privacy policy for the game and website
+```
 
 # Designing the Graphics User Interface (Surface) 
 ## Colors

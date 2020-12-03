@@ -26,9 +26,10 @@
 
 .about-desc {
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 p {
     color: white;
+    font-size: 18px;
 }

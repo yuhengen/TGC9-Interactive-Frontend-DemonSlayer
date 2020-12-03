@@ -20,7 +20,7 @@ function loginmodal() {
 		</div>
     </div>`
     
-    document.body.innerHTML += loginmodal;
+    document.querySelector(".login-modal").innerHTML = loginmodal;
 }
 
 loginmodal();

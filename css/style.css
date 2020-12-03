@@ -333,10 +333,11 @@ body {
 
 .news-title {
     font-family: dslayer;
-    font-size: 6vw;
+    font-size: 5vw;
     color: white;
     text-align: center;
     padding-top: 6vh;
+    padding-bottom: 1vh;
     text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
 }
 
@@ -377,10 +378,6 @@ body {
         left: 3%;
         width: 18vw;
     }
-    .news-title {
-        font-size: 5vw;
-        padding-top: 5vh;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -399,6 +396,10 @@ body {
         top: 10%;
         left: 3%;
         width: 22vw;
+    }
+    .news-title {
+        font-size: 8vw;
+        padding-top: 5vh;
     }
 }
 
