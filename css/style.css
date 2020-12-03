@@ -457,9 +457,15 @@ body {
 .modal-content {
     background-color: #343a40;
     color:white;
+    padding-top:1vh;
+    padding-bottom:1vh;
 }
 
 .modal-title {
     width: 100% !important;
     text-align:center !important;
 }
+
+.user-error, .pw-error {
+    color:red;
+} 

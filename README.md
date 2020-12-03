@@ -91,11 +91,11 @@ The Demon Slayer - Dark War wireframes will be added soon.
 ### Support
 - A page mainly used for contact purposes
 - Users can contact the team for various types of issues here, simply by filling up the form with their relevant information
-### Redeem (TBC)
-- A page for users to redeem game codes, for in-game rewards (Function to be implemented in the future)
-### Login (TBC)
-- A page for users to login to their accounts (Function to be implemented in the future)
+### Login
+- A window for users to login to their accounts (Function to be implemented in the future after learning database)
 - Used for account management, redeeming codes and participating in web events
+### Redeem (TBC)
+- A page for users to redeem game codes, for in-game rewards (Function to be implemented in the future after learning database)
 ### FAQ (TBC)
 - A page for FAQs for general enquiries
 ### Privacy Policy (TBC)
