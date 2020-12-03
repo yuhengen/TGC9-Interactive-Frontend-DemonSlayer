@@ -37,13 +37,13 @@ The primary purpose of this website is to let players download the game, as well
 
 # The Requirements (Scope)
 ## Current Features
-- Download the game on PC, Android/Apple phones.
-- View characters
-- Preview gameplay videos and screenshots
-- Provide relevant feedback to support team
-- View relevant content such as the anime series
-- Responsiveness
-- Ease of navigation with the Navbar
+- Download the game on PC, Android/Apple phones via provided links
+- View playable characters by using Axios to read JSON files
+- Preview gameplay videos from YouTube and in-game screenshots & GIFs
+- Provide relevant feedback to support team with form validation
+- View relevant content such as the anime series, displayed using API
+- Mobile responsiveness
+- Ease of navigation with the Bootstrap Navbar
 - Credits and more navigation on Footer
 
 ## Features to Implement in Future
@@ -51,6 +51,7 @@ The primary purpose of this website is to let players download the game, as well
 - Claiming of Code (For in-game rewards)
 - FAQ page with search function
 - Privacy Policy page (When necessary)
+- Database/Local storage for login and prevention of the re-loading screen
 
 # Developing the Site Structure (Structure)
 The Demon Slayer - Dark War website has a navigation bar and footer on every page, so that users can access every page with ease. As there are a lot of local images in the pages, a loading overlay has been added to every page so as to pre-load the assets before visitors can see them.
@@ -111,15 +112,19 @@ I used HTML5 to structure the webpages and CSS3 to style the them, and also util
 - HTML5 to structure the webpages
 - CSS to style the webpages
 - Javascript to implement interactivity with the website
-- [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+- [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/) for navbar, carousel, cards, accordion and forms
 - [GitHub](https://github.com/) for version control and repositories
 - [GitPod](https://gitpod.io/) and [Visual Studio Code](https://code.visualstudio.com/) as my coding platform
+- [Axios](https://github.com/axios/axios) to read from JSON files
+- [IMDB API](https://imdb-api.com/api) to display Anime information
 - [GIMP](https://www.gimp.org/) for image editing
 - [Responsive Web Design Checker](https://responsivedesignchecker.com/) to check how it looks like on other devices
 
 # Credits
 ## Acknowledgement
 This project would have not been possible without w3schools, Bootstrap documentation, Stackoverflow forums and the Demon Slayer: Kimetsu no Yaiba series.
+
+This project is strictly for educational purposes only.
 
 ## Images and videos
 All images are taken from sources below, and are edited using [GIMP](https://www.gimp.org/) where necessary

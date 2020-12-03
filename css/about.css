@@ -9,7 +9,7 @@
 }
 
 .card {
-    color:white;
+    color: white;
     background-color: black !important;
     border: 1px white solid;
 }
@@ -25,10 +25,10 @@
 }
 
 .about-desc {
-    margin:auto;
-    width:75vw;
+    margin: auto;
+    width: 74vw;
 }
 
 p {
-    color:white;
+    color: white;
 }

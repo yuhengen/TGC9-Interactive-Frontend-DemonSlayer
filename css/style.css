@@ -303,7 +303,7 @@ body {
     position: absolute;
     bottom: 18%;
     font-family: dslayer;
-    font-size: 8vw;
+    font-size: 7vw;
     color: white;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
@@ -329,7 +329,7 @@ body {
 
 .news-title {
     font-family: dslayer;
-    font-size: 7vw;
+    font-size: 6vw;
     color: white;
     text-align: center;
     padding-top: 6vh;
@@ -374,7 +374,7 @@ body {
         width: 18vw;
     }
     .news-title {
-        font-size: 6vw;
+        font-size: 5vw;
         padding-top: 5vh;
     }
 }

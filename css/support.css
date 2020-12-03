@@ -43,3 +43,9 @@ label {
     border: 1px white solid;
     box-shadow: 1px 1px 4px white;
 }
+
+@media only screen and (max-width: 414px) {
+    .support-image {
+        height: 28vh;
+    }
+}
