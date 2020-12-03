@@ -47,7 +47,7 @@ The primary purpose of this website is to let players download the game, as well
 - Mobile responsiveness
 - Ease of navigation with the Bootstrap Navbar
 - Credits and more navigation on Footer
-- Sample Login validation (Without database)
+- Sample login validation (Without database). Username and password are both admin
 ```
 ## Features to Implement in Future
 ```
@@ -55,7 +55,7 @@ The primary purpose of this website is to let players download the game, as well
 - Claiming of Code (For in-game rewards)
 - FAQ page with search function
 - Privacy Policy page (When necessary)
-- Database/Local storage for login and prevention of the re-loading screen
+- Database/Local storage for login
 ```
 
 # Developing the Site Structure (Structure)

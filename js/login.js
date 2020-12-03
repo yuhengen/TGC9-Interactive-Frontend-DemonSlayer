@@ -45,14 +45,14 @@ document.querySelector(".login-form").addEventListener("submit", function (event
     let username = document.querySelector(".login-user").value;
     if (username.length === 0) {
         emptyUser = true;
-    } else if (username !== "tester" || username !== "admin") {
+    } else if (username !== "admin" && username !== "tester") {
         invalidUser = true;
     }
 
     let password = document.querySelector(".login-pw").value;
     if (password.length === 0) {
         emptyPassword = true;
-    } else if (password !== "tester123" || password !== "admin") {
+    } else if (password !== "admin" && password !== "tester123") {
         invalidPassword = true;
     }
 

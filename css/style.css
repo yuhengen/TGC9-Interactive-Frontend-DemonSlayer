@@ -33,7 +33,7 @@ html {
 }
 
 .bgImg {
-    position: fixed;
+    position: fixed; 
     right: 0;
     bottom: 0;
     min-width: 100%;
@@ -468,4 +468,8 @@ body {
 
 .user-error, .pw-error {
     color:red;
-} 
+}
+
+.modal-open {
+ overflow-y: hidden;
+}
