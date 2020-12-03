@@ -45,14 +45,14 @@ document.querySelector(".login-form").addEventListener("submit", function (event
     let username = document.querySelector(".login-user").value;
     if (username.length === 0) {
         emptyUser = true;
-    } else if (username !== "admin") {
+    } else if (username !== "tester" || username !== "admin") {
         invalidUser = true;
     }
 
     let password = document.querySelector(".login-pw").value;
     if (password.length === 0) {
         emptyPassword = true;
-    } else if (password !== "admin") {
+    } else if (password !== "tester123" || password !== "admin") {
         invalidPassword = true;
     }
 
@@ -74,8 +74,16 @@ document.querySelector(".login-form").addEventListener("submit", function (event
     }
 
     if (!emptyUser && !invalidUser && !emptyPassword && !invalidPassword) {
-        alert("Login success!");
-        document.querySelector(".login-form").submit();
-        document.querySelector(".login-btn").style.display = "none";
+        if ((username == "admin" && password == "admin") || (username == "tester" && password == "tester123")) {
+            alert("Login success!");
+            document.querySelector(".login-form").submit();
+        } else {
+            document.querySelector(".pw-error").innerHTML = "*Invalid password"
+            event.preventDefault();
+        }
     }
+})
+
+document.querySelector(".coming-soon").addEventListener("click", function () {
+    alert("Coming Soon!")
 })

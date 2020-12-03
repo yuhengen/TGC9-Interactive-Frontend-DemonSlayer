@@ -47,10 +47,11 @@ The primary purpose of this website is to let players download the game, as well
 - Mobile responsiveness
 - Ease of navigation with the Bootstrap Navbar
 - Credits and more navigation on Footer
+- Sample Login validation (Without database)
 ```
 ## Features to Implement in Future
 ```
-- Sign Up/Login with Email or Social Media sites
+- Sign Up/Login with Email (Using databases) or Social Media sites
 - Claiming of Code (For in-game rewards)
 - FAQ page with search function
 - Privacy Policy page (When necessary)
