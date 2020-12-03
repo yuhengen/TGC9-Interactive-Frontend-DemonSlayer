@@ -453,3 +453,13 @@ body {
         padding-top: 3vh;
     }
 }
+
+.modal-content {
+    background-color: #343a40;
+    color:white;
+}
+
+.modal-title {
+    width: 100% !important;
+    text-align:center !important;
+}

@@ -57,15 +57,41 @@
 					</li>
 					<li class="nav-item">
 						<a class="nav-link login-btn" href="login.html" data-toggle="modal"
-							data-target="#exampleModalCenter">Login</a>
+							data-target=".login-window">Login</a>
 					</li>
 				</ul>
 			</div>
 	</nav>
 	<!-- End of navbar -->
 
-    <!-- Login Page -->
-    <div class="login-modal"></div>
+	<!-- Login Page -->
+	<!-- <div class="login-modal"></div> -->
+	<div class="modal fade login-window" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+		aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+				</div>
+				<form id="login-form">
+					<div class="modal-body">
+						<input type="text" class="form-control mb-3 mt-3" id="login-user" placeholder="Username/Email"/>
+						<div class="user-error"></div>
+						<input type="password" class="form-control mb-3 mt-3" id="login-pw" placeholder="Password"/>
+						<div class="pw-error"></div>
+						<button type="button" class="btn btn-secondary form-control" id="login-btn">Login</button>
+					</div>
+					<div class="modal-footer d-flex justify-content-around">
+						<button type="button" class="btn btn-secondary form-control">Register</button>
+						<button type="button" class="btn btn-secondary form-control">Forget Password</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
 
 	<div class="home-image">
 		<img src="images/support-banner.jpg" class="support-image" />
