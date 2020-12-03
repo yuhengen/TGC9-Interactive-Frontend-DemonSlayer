@@ -313,7 +313,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
-    bottom: 3%;
+    bottom: 0%;
 }
 
 .download-btn {
@@ -419,12 +419,12 @@ body {
 
 @media only screen and (max-width: 414px) {
     .download-game {
-        bottom: 25vh;
+        bottom: 27vh;
         font-size: 12vw;
     }
     .download-btn {
         width: 40vw;
-        margin-top: 2vh;
+        margin-top: 1vh;
     }
     .loader-text {
         font-size: 6vw;

@@ -74,17 +74,17 @@ The Demon Slayer - Dark War wireframes will be added soon.
 ### Home
 - Starts with a home page, displaying a banner of the Demon Slayer series and the download buttons
 - This page's main focus is to get the visitors to download the game, which is the first thing they see upon entering the site
-- Includes the game trailer and news about the game
+- Includes the game trailer and news about the game as visitors scroll down the page
 ### Characters
 - Upon entering the Characters page, there will be a character viewer where players can expect to see the playable characters in game
-- More information regarding the factions are shown further down the page
+- More information and introduction regarding the factions and other characters are also shown as you scroll down the page
 ### Explore: About
-- Visitors can view the game screenshots, as well as additional trailer for the game
+- Visitors can view the game features and trailer on this page
 ### Explore: Anime
 - Visitors can view information regarding the anime here
 - Page will also redirect them to official sources to watch the anime
 ### Support
-- A simple page for contact purposes
+- A page mainly used for contact purposes
 - Users can contact the team for various types of issues here, simply by filling up the form with their relevant information
 ### Redeem (TBC)
 - A page for users to redeem game codes, for in-game rewards (Function to be implemented in the future)
