@@ -30,6 +30,18 @@
     color: white;
 }
 
+.watch-links {
+    color:red;
+    font-weight: bold;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+.watch-links:hover {
+    color:white;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+    text-decoration: none;
+}
+
 #accordion .card {
     background: rgba(0, 0, 0, 0.0) !important;
 }

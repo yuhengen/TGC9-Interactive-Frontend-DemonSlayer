@@ -1,3 +1,7 @@
+body {
+    overflow: scroll;
+}
+
 .support-image {
     width: 100%;
     object-fit: cover;

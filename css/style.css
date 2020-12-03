@@ -134,6 +134,10 @@ hr.solid {
     font-size: 1em;
 }
 
+.footer-text:hover {
+    text-decoration: none;
+}
+
 .footer-logo {
     width: 8vw;
 }
