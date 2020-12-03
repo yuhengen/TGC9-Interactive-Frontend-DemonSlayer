@@ -5,7 +5,7 @@ window.onload = function () {
   setTimeout(function () {
     let body = document.querySelector("body");
     overlay.style.opacity = "0"
-    body.style.overflow = "scroll";
+    body.style.overflowY = "scroll";
   }, 2000)
 
   setTimeout(function () {
