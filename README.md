@@ -75,7 +75,7 @@ The sitemap is as shown in the diagram below:
 Most important features and information are displayed first. Our priority is to have players DOWNLOAD the game, so it is the first thing we see upon entering the website. The font size is also generally the largest so as to catch attention.
 
 The Demon Slayer - Dark War wireframes will be added soon.
-```
+
 ### Home
 - Starts with a home page, displaying a banner of the Demon Slayer series and the download buttons
 - This page's main focus is to get the visitors to download the game, which is the first thing they see upon entering the site
@@ -100,14 +100,15 @@ The Demon Slayer - Dark War wireframes will be added soon.
 - A page for FAQs for general enquiries
 ### Privacy Policy (TBC)
 - A page for the privacy policy for the game and website
-```
 
 # Designing the Graphics User Interface (Surface) 
 ## Colors
 After some research and considerations, the main colors I decided to use are those closely related to the Demon Slayer logo and theme.
+```
 - Black/Grey to symbolize darkness and calamity.
 - White to contrast the Black, the light in the darkness, as well as a symbol of faith.
 - Red to symbolize chaos and blood.
+```
 
 ## Fonts
 The fonts which are mainly used on the website is Sans Serif, the default font family. I also used the Demon Slayer title font [Blood Crow](https://fontmeme.com/fonts/blood-crow-font/) for decorative purposes.
