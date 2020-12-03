@@ -126,6 +126,17 @@ I used HTML5 to structure the webpages and CSS3 to style the them, and also util
 - [GIMP](https://www.gimp.org/) for image editing
 - [Responsive Web Design Checker](https://responsivedesignchecker.com/) to check how it looks like on other devices
 
+# Deployment
+## Steps taken to deploy the project
+```
+1. Login to GitHub and click on my repository
+2. Select the TGC9-Interactive-Frontend-DemonSlayer repository
+3. Navigate to the Setting (Gear icon)
+4. Scroll down to the GitHub Pages section and select 'master branch'
+5. On master branch and ready to be published
+6. View and test the site at: https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/
+```
+
 # Credits
 ## Acknowledgement
 This project would have not been possible without w3schools, Bootstrap documentation, Stackoverflow forums and the Demon Slayer: Kimetsu no Yaiba series.
