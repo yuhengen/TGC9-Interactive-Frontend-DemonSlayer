@@ -15,7 +15,7 @@ Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive
 # Identifying the Users (Strategy)
 The primary purpose of this website is to let players download the game, as well as to give the game and the Demon Slayer series more exposure. The contents of the website will therefore contain the download links and more information about the Demon Slayer - Dark War game, targeted at potential players.
 
-## Owner Stories
+## Owner Stories (Developers)
 ```
 - As the owner of the website, I want to create a user-friendly and attractive website so that my visitors can easily download the game on different platforms, as well as enjoy their time on the site.
 
@@ -27,7 +27,7 @@ The primary purpose of this website is to let players download the game, as well
 
 - As the owner of the Kimetsu no Yaiba (Demon Slayer) series, I want the fans of the series to visit the website so that I can let them experience Demon Slayer in other forms other than the anime, such as the game.
 ```
-## User Stories (Players and Potential players)
+## User Stories (Visitors & Players)
 ```
 - As a user, I want to find a website to download the game so that I can play it on different platforms.
 
@@ -93,7 +93,7 @@ The Demon Slayer - Dark War wireframes will be added soon.
 - A page mainly used for contact purposes
 - Users can contact the team for various types of issues here, simply by filling up the form with their relevant information
 ### Login
-- A window for users to login to their accounts (Function to be implemented in the future after learning database)
+- A window for users to login to their accounts (Full function to be implemented in the future after learning database)
 - Used for account management, redeeming codes and participating in web events
 ### Redeem (TBC)
 - A page for users to redeem game codes, for in-game rewards (Function to be implemented in the future after learning database)
@@ -115,7 +115,7 @@ After some research and considerations, the main colors I decided to use are tho
 The fonts which are mainly used on the website is Sans Serif, the default font family. I also used the Demon Slayer title font [Blood Crow](https://fontmeme.com/fonts/blood-crow-font/) for decorative purposes.
 
 # Technologies
-I used HTML5 to structure the webpages and CSS3 to style the them, and also utilized Bootstrap 4 for layout, such as the NavBar and Accordion for the display of the Anime episodes' title and description.
+I used HTML5 to structure the webpages and CSS3 to style the them. I also utilized Bootstrap 4 for layout, such as for the NavBar and Accordion for the display of the Anime episodes' title and description.
 - HTML5 to structure the webpages
 - CSS to style the webpages
 - Javascript to implement interactivity with the website
