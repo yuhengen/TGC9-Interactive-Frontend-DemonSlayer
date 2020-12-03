@@ -4,9 +4,10 @@ Welcome to Demon Slayer - Dark War, a game where you will play as Tanjiro to gat
 
 # Demo
 Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/)
+
 ---
 
-<img src="images/Project1-Responsive.jpg" style="margin: 0;">
+<img src="images/readme/Project1-Responsive.jpg" style="margin: 0;">
 
 ---
 
@@ -49,14 +50,51 @@ The primary purpose of this website is to let players download the game, as well
 - Sign Up/Login with Email or Social Media sites
 - Claiming of Code (For in-game rewards)
 - FAQ page with search function
+- Privacy Policy page (When necessary)
 
 # Developing the Site Structure (Structure)
-The Demon Slayer - Dark War SiteMap will be added soon.
+The Demon Slayer - Dark War website has a navigation bar and footer on every page, so that users can access every page with ease. As there are a lot of local images in the pages, a loading overlay has been added to every page so as to pre-load the assets before visitors can see them.
+
+## Sitemap
+The sitemap is as shown in the diagram below:
+
+---
+
+<img src="images/readme/TGC-Project1.jpg" style="margin: 0;">
+
+---
+
+
 
 # Developing Page Structure and Organize Interactions (Skeleton)
 Most important features and information are displayed first. Our priority is to have players DOWNLOAD the game, so it is the first thing we see upon entering the website. The font size is also generally the largest so as to catch attention.
 
 The Demon Slayer - Dark War wireframes will be added soon.
+
+### Home
+- Starts with a home page, displaying a banner of the Demon Slayer series and the download buttons
+- This page's main focus is to get the visitors to download the game, which is the first thing they see upon entering the site
+- Includes the game trailer and news about the game
+### Characters
+- Upon entering the Characters page, there will be a character viewer where players can expect to see the playable characters in game
+- More information regarding the factions are shown further down the page
+### Explore: About
+- Visitors can view the game screenshots, as well as additional trailer for the game
+### Explore: Anime
+- Visitors can view information regarding the anime here
+- Page will also redirect them to official sources to watch the anime
+### Support
+- A simple page for contact purposes
+- Users can contact the team for various types of issues here, simply by filling up the form with their relevant information
+### Redeem (TBC)
+- A page for users to redeem game codes, for in-game rewards (Function to be implemented in the future)
+### Login (TBC)
+- A page for users to login to their accounts (Function to be implemented in the future)
+- Used for account management, redeeming codes and participating in web events
+### FAQ (TBC)
+- A page for FAQs for general enquiries
+### Privacy Policy (TBC)
+- A page for the privacy policy for the game and website
 
 # Designing the Graphics User Interface (Surface) 
 ## Colors

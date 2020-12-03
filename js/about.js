@@ -6,9 +6,9 @@ window.onload = function () {
         let body = document.querySelector("body");
         overlay.style.opacity = "0"
         body.style.overflowY = "scroll";
-    }, 2000)
+    }, 1000)
 
     setTimeout(function () {
         overlay.remove()
-    }, 3000)
+    }, 2000)
 };
