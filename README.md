@@ -2,7 +2,13 @@
 
 Welcome to Demon Slayer - Dark War, a game where you will play as Tanjiro to gather and form your team of Demon Slayers! This website will be used to promote the game and give our potential players a glimpse of how the game looks like.
 
-Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/).
+# Demo
+Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/)
+---
+
+<img src="images/Project1-Responsive.jpg" style="margin: 0;">
+
+---
 
 # UI/UX
 # Identifying the Users (Strategy)
@@ -71,17 +77,21 @@ I used HTML5 to structure the webpages and CSS3 to style the them, and also util
 - [GitHub](https://github.com/) for version control and repositories
 - [GitPod](https://gitpod.io/) and [Visual Studio Code](https://code.visualstudio.com/) as my coding platform
 - [GIMP](https://www.gimp.org/) for image editing
+- [Responsive Web Design Checker](https://responsivedesignchecker.com/) to check how it looks like on other devices
 
 # Credits
 ## Acknowledgement
 This project would have not been possible without w3schools, Bootstrap documentation, Stackoverflow forums and the Demon Slayer: Kimetsu no Yaiba series.
 
 ## Images and videos
-All images are taken from sources below, and are edited using [GIMP](https://www.gimp.org/)
+All images are taken from sources below, and are edited using [GIMP](https://www.gimp.org/) where necessary
 - Credits to Kimetsu no Yaiba - Demon Slayer series for their characters and images
 - Credits to Demon Slayer wikia and Google for the Images
 - Credits to YouTube for the videos
 
 ## Fonts
-- [Blood Crow](https://fontmeme.com/fonts/blood-crow-font/)
+- [Blood Crow](https://fontmeme.com/fonts/blood-crow-font/) from Fontmeme
 - Sans Serif
+
+## Website Mockup
+- [Free Responsive Website Mockup Template](https://speckyboy.com/free-responsive-website-mockup-template/) from Speckyboy

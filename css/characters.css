@@ -183,9 +183,9 @@ h3.dem-characters-subtitle {
         font-size: 7vh;
     }
     #character-desc {
-        bottom: 30vh;
+        bottom: 20vh;
         background-color: rgba(0, 0, 0, 0.7);
-        height: 15vh;
+        height: 18vh;
         width: 700px;
         display:flex;
         align-items: center;
@@ -194,30 +194,33 @@ h3.dem-characters-subtitle {
         margin-left: auto; 
         margin-right: auto;
     }
+    #character-portrait {
+        bottom: 0%;
+        right: 0;
+    }
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1024px) {
     #character-name {
-        top: 14vh;
+        top: 8vh;
         left: 5vw;
         font-size: 10vh;
     }
     #character-lastname {
-        top: 25vh;
+        top: 18vh;
         left: 5vw;
         font-size: 7vh;
     }
     #character-desc {
-        bottom: 25vh;
+        bottom: 28vh;
         left: 5vw;
         background-color: rgba(0, 0, 0, 0.7);
         height: 20vh;
-        width: 250px;
-        display:block;
+        width: 60vw;
     }
     #character-portrait {
         bottom: 0%;
-        right: 0;
+        right: 0vw;
     }
     .character-menu {
         width: 100%;
@@ -227,7 +230,12 @@ h3.dem-characters-subtitle {
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
+    html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     h2.dsc-characters-title {
         font-size: 5vh;
     }
@@ -248,7 +256,7 @@ h3.dem-characters-subtitle {
         bottom: 28vh;
         background-color: rgba(0, 0, 0, 0.7);
         height: 15vh;
-        width: 350px;
+        width: 80vw;
         display:block;
         left: 0; 
         right: 0; 
@@ -256,6 +264,10 @@ h3.dem-characters-subtitle {
         margin-right: auto;
     }
     .portrait-size {
-        height: 75vh;
+        height: 80vh;
+    }
+    #character-portrait {
+        bottom: 0%;
+        right: -80px;
     }
 }

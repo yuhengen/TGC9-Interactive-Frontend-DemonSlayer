@@ -15,7 +15,7 @@ html {
 
 .nav-item {
     font-family: dslayer;
-    font-size: 22px;
+    font-size: 24px;
     padding-left: 1vw;
 }
 
@@ -214,12 +214,12 @@ a.footer-text:hover {
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 /* End return to top button */
@@ -348,25 +348,25 @@ body {
     bottom: 0vh !important;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1366px) {
     .download-game {
-        bottom: 70vh;
-        font-size: 12vw;
+        bottom: 20vh;
+        font-size: 11vw;
     }
     .download-btns {
         position: absolute !important;
         display: flex;
-        flex-direction: column;
         width: 80%;
     }
     .download-btn {
-        width: 45vw;
+        width: 31vw;
         margin-top: 2vh;
+        margin-left: 1vw;
     }
     .banner-logo {
         position: absolute;
-        bottom: 2%;
-        right: 2%;
+        top: 6%;
+        left: 2%;
         width: 22vw;
     }
     .news-title {
@@ -375,21 +375,46 @@ body {
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 768px) {
     .download-game {
         bottom: 30vh;
         font-size: 12vw;
     }
-
+    .download-btns {
+        flex-direction: column;
+    }
     .loader-text {
         font-size: 6vw;
     }
-
     .toTopBtn {
         font-size: 6vw;
     }
-
     .ds-image {
         height: 70vh;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .download-game {
+        bottom: 31vh;
+        font-size: 12vw;
+    }
+    .download-btn {
+        width: 40vw;
+        margin-top: 2vh;
+    }
+    .loader-text {
+        font-size: 6vw;
+    }
+    .toTopBtn {
+        font-size: 6vw;
+    }
+    .ds-image {
+        height: 85vh;
+    }
+    .banner-logo {
+        top: 71vh;
+        left: 74vw;
+        width: 25vw;
     }
 }
