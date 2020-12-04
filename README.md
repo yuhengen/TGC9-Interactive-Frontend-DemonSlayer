@@ -87,7 +87,7 @@ Most important features and information are displayed first. Our priority is to 
 The wireframes is as shown in the diagram below:
 ---
 
-<img src="images/readme/Project1-Wireframes.jpg" style="margin: 0;">
+<img src="images/readme/TGC9-Project1-Wireframes.jpg" style="margin: 0;">
 
 ---
 
