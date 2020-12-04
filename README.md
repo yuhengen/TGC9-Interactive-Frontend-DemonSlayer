@@ -143,8 +143,10 @@ I used HTML5 to structure the webpages and CSS3 to style the them. I also utiliz
 
 # Testing
 ## Navigation Bar
-:heavy_check_mark: [Demon Slayer: Dark War Logo](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/index.html)/[Home](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/index.html) both leads to the home page, index.html
-:heavy_check_mark: [Characters](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/characters.html) leads to the characters page, characters.html
+- :heavy_check_mark: [Demon Slayer: Dark War Logo](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/index.html)/[Home](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/index.html) both leads to the home page, index.html
+- :heavy_check_mark: [Characters](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/characters.html) leads to the characters page, characters.html
+- :heavy_check_mark: [Explore > About Game](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/about.html) leads to the about game page, about.html
+:heavy_check_mark: [Explore > Anime](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/anime.html) leads to the anime page, anime.html
 
 # Deployment
 ## Steps taken to deploy the project
