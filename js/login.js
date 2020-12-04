@@ -32,7 +32,6 @@ function loginmodal() {
 loginmodal();
 
 document.querySelector(".login-form").addEventListener("submit", function (event) {
-    event.preventDefault();
 
     let emptyUser = false;
     let invalidUser = false;
