@@ -187,11 +187,11 @@ h3.dem-characters-subtitle {
         background-color: rgba(0, 0, 0, 0.7);
         height: 18vh;
         width: 700px;
-        display:flex;
+        display: flex;
         align-items: center;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
+        left: 0;
+        right: 0;
+        margin-left: auto;
         margin-right: auto;
     }
     #character-portrait {
@@ -235,7 +235,6 @@ h3.dem-characters-subtitle {
         max-width: 100%;
         overflow-x: hidden;
     }
-
     h2.dsc-characters-title {
         font-size: 5vh;
     }
@@ -257,10 +256,10 @@ h3.dem-characters-subtitle {
         background-color: rgba(0, 0, 0, 0.7);
         height: 15vh;
         width: 80vw;
-        display:block;
-        left: 0; 
-        right: 0; 
-        margin-left: auto; 
+        display: block;
+        left: 0;
+        right: 0;
+        margin-left: auto;
         margin-right: auto;
     }
     .portrait-size {

@@ -1,3 +1,18 @@
+// Loading screen transition
+let overlay = document.querySelector("#overlay");
+
+window.onload = function () {
+    setTimeout(function () {
+        let body = document.querySelector("body");
+        overlay.style.opacity = "0"
+        body.style.overflowY = "scroll";
+    }, 500)
+
+    setTimeout(function () {
+        overlay.remove()
+    }, 1500)
+};
+
 document.querySelector("#feedback-form").addEventListener("submit", function (event) {
 
     // Error Flags
@@ -16,7 +31,7 @@ document.querySelector("#feedback-form").addEventListener("submit", function (ev
     let email = document.querySelector("#feedback-email").value;
     if (!email.includes("@") || !email.includes(".")) {
         emailError = true;
-    }    
+    }
 
     // Check username (Min 4 characters, Max 15 characters, no symbols)
     let username = document.querySelector("#feedback-name").value;

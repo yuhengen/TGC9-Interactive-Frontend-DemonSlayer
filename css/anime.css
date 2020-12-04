@@ -31,13 +31,13 @@
 }
 
 .watch-links {
-    color:red;
+    color: red;
     font-weight: bold;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .watch-links:hover {
-    color:white;
+    color: white;
     text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
     text-decoration: none;
 }

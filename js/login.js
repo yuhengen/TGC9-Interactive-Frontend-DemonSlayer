@@ -18,8 +18,8 @@ function loginmodal() {
 						<button type="submit" class="btn btn-secondary form-control login-btn mb-3 mt-3">Login</button>
 					</div>
 					<div class="modal-footer d-flex justify-content-around">
-						<button type="button" class="btn btn-secondary form-control mb-3 mt-3">Register</button>
-						<button type="button" class="btn btn-secondary form-control mb-3 mt-3">Forget Password</button>
+						<button type="button" class="btn btn-light form-control mb-3 mt-3">Register</button>
+						<button type="button" class="btn btn-danger form-control mb-3 mt-3">Forget Password</button>
 					</div>
 				</form>
 			</div>
@@ -69,7 +69,7 @@ document.querySelector(".login-form").addEventListener("submit", function (event
         event.preventDefault();
     }
     if (invalidUser == false && invalidPassword == true) {
-        document.querySelector(".pw-error").innerHTML = "*Invalid password"
+        document.querySelector(".pw-error").innerHTML = "*Password is not associated with this account"
         event.preventDefault();
     }
 
@@ -78,7 +78,7 @@ document.querySelector(".login-form").addEventListener("submit", function (event
             alert("Login success!");
             document.querySelector(".login-form").submit();
         } else {
-            document.querySelector(".pw-error").innerHTML = "*Invalid password"
+            document.querySelector(".pw-error").innerHTML = "*Password is not associated with this account"
             event.preventDefault();
         }
     }
