@@ -423,6 +423,10 @@ body {
 }
 
 @media only screen and (max-width: 414px) {
+    .navilogo {
+        width: 200px;
+        object-fit: contain;
+    }
     .download-game {
         bottom: 27vh;
         font-size: 12vw;
@@ -446,7 +450,7 @@ body {
         width: 25vw;
     }
     .ds-image {
-        height: 73vh;
+        height: 75vh;
     }
     .news-title {
         font-size: 10vw;
@@ -471,6 +475,6 @@ body {
 }
 
 .close {
-    color:white;
+    color: white;
     text-shadow: none;
 }

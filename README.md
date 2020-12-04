@@ -2,6 +2,13 @@
 
 Welcome to the website of the game Demon Slayer - Dark War, where you will play as Tanjiro to gather and form your team of Demon Slayers! This website will be used to promote the game and give our potential players a glimpse of how the game looks like.
 
+## Context
+I was previously from a game publishing company and felt that just having a couple of social media pages (Facebook, Instagram etc) to promote your content isn't sufficient.
+
+Any business can have a social media page which can be created easily, but not every business has a website or at least someone who can build a website for them. This gives us some form of exclusivity, as well as full control over how we want to present our products to our audiences.
+
+As the games industry is ever-growing, the sheer number of people getting exposed to game varieties and genres continue to expand. My goal is to create a website to promote the game and downloads, but at the same time make it attractive and interactive so that users will enjoy their time here.
+
 # Demo
 Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/)
 
@@ -13,7 +20,7 @@ Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive
 
 # UI/UX
 # Identifying the Users (Strategy)
-The primary purpose of this website is to let players download the game, as well as to give the game and the Demon Slayer series more exposure. The contents of the website will therefore contain the download links and more information about the Demon Slayer - Dark War game, targeted at potential players.
+The primary purpose of this website is to have players download the game, as well as to give the game and the Demon Slayer series more exposure. The contents of the website will therefore contain the download links and more information about the Demon Slayer - Dark War game, targeted at potential players.
 
 ## Owner Stories (Developers)
 ```
