@@ -1,6 +1,6 @@
 # Demon Slayer - Dark War
 
-Welcome to Demon Slayer - Dark War, a game where you will play as Tanjiro to gather and form your team of Demon Slayers! This website will be used to promote the game and give our potential players a glimpse of how the game looks like.
+Welcome to the website of the game Demon Slayer - Dark War, where you will play as Tanjiro to gather and form your team of Demon Slayers! This website will be used to promote the game and give our potential players a glimpse of how the game looks like.
 
 # Demo
 Demo of the site can be found [here](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/)
@@ -48,11 +48,12 @@ The primary purpose of this website is to let players download the game, as well
 - Ease of navigation with the Bootstrap Navbar
 - Credits and more navigation on Footer
 - Sample login validation (Without database). Username and password are both admin
+- Return to top button implemented on long pages
 ```
 ## Features to Implement in Future
 ```
 - Sign Up/Login with Email (Using databases) or Social Media sites
-- Claiming of Code (For in-game rewards)
+- Claiming of codes to redeem in-game rewards
 - FAQ page with search function
 - Privacy Policy page (When necessary)
 - Database/Local storage for login
@@ -85,10 +86,10 @@ The Demon Slayer - Dark War wireframes will be added soon.
 - Upon entering the Characters page, there will be a character viewer where players can expect to see the playable characters in game
 - More information and introduction regarding the factions and other characters are also shown as you scroll down the page
 ### Explore: About
-- Visitors can view the game features and trailer on this page
+- Visitors can view the game's story, game features and trailer on this page
 ### Explore: Anime
 - Visitors can view information regarding the anime here
-- Page will also redirect them to official sources to watch the anime
+- Links on this page will also redirect visitors to official sources to watch the anime
 ### Support
 - A page mainly used for contact purposes
 - Users can contact the team for various types of issues here, simply by filling up the form with their relevant information
@@ -140,12 +141,12 @@ I used HTML5 to structure the webpages and CSS3 to style the them. I also utiliz
 
 # Credits
 ## Acknowledgement
-This project would have not been possible without w3schools, Bootstrap documentation, Stackoverflow forums and the Demon Slayer: Kimetsu no Yaiba series.
+This project would have not been possible without the lecturer and training assistants from Trent Global College, w3schools, Bootstrap documentation, Stackoverflow forums and the Demon Slayer: Kimetsu no Yaiba series.
 
 This project is strictly for educational purposes only.
 
 ## Images and videos
-All images are taken from sources below, and are edited using [GIMP](https://www.gimp.org/) where necessary
+All images are taken from the sources below, and are edited using [GIMP](https://www.gimp.org/) where needed
 - Credits to Kimetsu no Yaiba - Demon Slayer series for their characters and images
 - Credits to Demon Slayer wikia and Google for the Images
 - Credits to YouTube for the videos
