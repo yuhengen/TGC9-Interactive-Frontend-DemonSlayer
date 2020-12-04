@@ -83,7 +83,13 @@ The sitemap is as shown in the diagram below:
 # Developing Page Structure and Organize Interactions (Skeleton)
 Most important features and information are displayed first. Our priority is to have players DOWNLOAD the game, so it is the first thing we see upon entering the website. The font size is also generally the largest so as to catch attention.
 
-The Demon Slayer - Dark War wireframes will be added soon.
+## Wireframes
+The wireframes is as shown in the diagram below:
+---
+
+<img src="images/readme/Project1-Wireframes.jpg" style="margin: 0;">
+
+---
 
 ### Home
 - Starts with a home page, displaying a banner of the Demon Slayer series and the download buttons

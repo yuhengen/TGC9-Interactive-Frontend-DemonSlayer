@@ -428,7 +428,7 @@ body {
         object-fit: contain;
     }
     .download-game {
-        bottom: 27vh;
+        bottom: 28vh;
         font-size: 12vw;
     }
     .download-btn {
@@ -450,7 +450,7 @@ body {
         width: 25vw;
     }
     .ds-image {
-        height: 75vh;
+        height: 77vh;
     }
     .news-title {
         font-size: 10vw;
