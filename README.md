@@ -141,6 +141,11 @@ I used HTML5 to structure the webpages and CSS3 to style the them. I also utiliz
 - [GIMP](https://www.gimp.org/) for image editing
 - [Responsive Web Design Checker](https://responsivedesignchecker.com/) to check how it looks like on other devices
 
+# Testing
+## Navigation Bar
+:heavy_check_mark: [Demon Slayer: Dark War Logo](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/index.html)/[Home](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/index.html) both leads to the home page, index.html
+:heavy_check_mark: [Characters](https://yuhengen.github.io/TGC9-Interactive-Frontend-DemonSlayer/characters.html) leads to the characters page, characters.html
+
 # Deployment
 ## Steps taken to deploy the project
 ```
